@@ -3,8 +3,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Hero({ programName, applyLink }) {
   return (
-    <div className="bg-gray-100 pt-16">
-      <div className="sm:pt-12 lg:pt-14">
+    <div className="bg-gray-100">
+      <div className="lg:pt-5">
         {/* Hero card */}
         <div className="relative">
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-white" />
