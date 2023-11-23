@@ -1,7 +1,7 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-export default function Hero({ programName, desc, applyLink }) {
+export default function Hero({ programName, applyLink }) {
   return (
     <div className="bg-gray-100 pt-16">
       <div className="sm:pt-12 lg:pt-14">
@@ -22,14 +22,17 @@ export default function Hero({ programName, desc, applyLink }) {
                 />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-                <h1 className='text-center text-5xl text-blue-900'>Trojan Robotics</h1>
+                
+                <h1 className='text-center text-5xl text-blue-900 '>Trojan Robotics</h1>, 
+
+ 
                 {/* <img
                   src={`/img/logos/${programName}-white.png`}
                   alt={programName}
                   className="w-48 mx-auto"
                 /> */}
                 <p className="mt-6 max-w-lg mx-auto text-center text-xl text-gray-200 sm:max-w-3xl">
-                  {desc}
+                Trojan Robotics FIRST Robotics Team 2264 is a community robotics team based in Plymouth, Minnesota
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
