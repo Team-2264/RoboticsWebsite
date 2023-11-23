@@ -31,14 +31,14 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navBarViewOptions = ["News", "Sponsors", "Events", "Contact"]
-
+  const trojanRoboticsLogoPath = "/assets/images/trojanRoboticsLogo.png"
   return (
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="/assets/images/trojanRoboticsLogo.png" alt="" />
+            <img className="h-8 w-auto" src={trojanRoboticsLogoPath} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -126,7 +126,7 @@ export default function NavBar() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src={trojanRoboticsLogoPath}
                 alt=""
               />
             </a>

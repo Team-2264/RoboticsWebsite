@@ -12,20 +12,19 @@ export default function Hero({ programName, applyLink }) {
             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  className="h-full w-full object-cover"
-                  src="/img/page-bg/programs-bg.jpg"
+                  className="h-full w-full object-cover "
+                  src="/assets/images/teamHoustonPic.jpg"
                   alt={programName}
                 />
                 <div
-                  className="absolute inset-0 bg-yei-secondary-main"
+                  className="absolute inset-0 bg-yellow-900 bg-opacity-70"
                   style={{ mixBlendMode: 'multiply' }}
                 />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-                
-                <h1 className='text-center text-5xl text-blue-900 '>Trojan Robotics</h1>, 
+   
+              <h1 className='text-center text-5xl text-blue-700'>Trojan Robotics <span className='text-white'>2264</span></h1>
 
- 
                 {/* <img
                   src={`/img/logos/${programName}-white.png`}
                   alt={programName}
@@ -39,7 +38,7 @@ export default function Hero({ programName, applyLink }) {
                     <a
                       href={applyLink}
                       target="_blank"
-                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-800 bg-white hover:bg-green-50 sm:px-8"
+                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-800 bg-white hover:bg-blue-50 sm:px-8"
                     >
                       Get involved
                     </a>
@@ -47,7 +46,7 @@ export default function Hero({ programName, applyLink }) {
                       href="#learn-more"
                       offset={26.9}
                       target="_blank"
-                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-800 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
+                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-700 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                     >
                       Support the Team
                     </AnchorLink>

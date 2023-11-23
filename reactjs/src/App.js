@@ -13,6 +13,13 @@ const App = () => {
         <div>
             <NavBar />
             <Hero />
+            <div> absolute</div>
+            <div> absolute</div>
+            <div> absolute</div>
+            <div> absolute</div>
+            <div> absolute</div>
+            <div> absolute</div>
+            <div> absolute</div>
         </div>
     );
 }
