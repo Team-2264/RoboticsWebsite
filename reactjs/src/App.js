@@ -14,6 +14,7 @@ const App = () => {
         <div className="max-w-8xl m-auto">
             <NavBar />
             <Hero />
+            <br></br>
             <LatestNews />
             <div> absolute</div>
             <div> absolute</div>

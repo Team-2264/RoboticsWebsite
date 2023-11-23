@@ -4,43 +4,29 @@ import React from 'react'
 const LatestNews = () => {
     const newsData = [
         {
-            title: "Hello world 1",
+            title: "Hello World",
             author: "Name",
-            desc: "Helloworld"
+            desc: "Helloworld",
+            date: "December 10, 2023"
         },
         {
             title: "Hello world 2",
             author: "Name",
-            desc: "Helloworld"
+            desc: "Helloworld",
+            date: "December 10, 2023"
+        }
 
-        },
-        {
-            title: "Hello world3 ",
-            author: "Name",
-            desc: "Helloworld"
-
-        },
-        {
-            title: "Hello world4",
-            author: "Name",
-            desc: "Helloworld"
-        },
     ]
     return (
-        <div className="shadow-2xl w-full grid grid-cols-3 items-center justify-center gap-5">
-            <div className='m-auto'>
+        <div className="w-full grid grid-cols-3 items-center justify-center gap-5">
+            <div className='m-auto shawdow-2xl'>
                 FEATURES
             </div>
-            <div className='m-auto'>
-                FEATURES
-            </div>
-            <div className='m-auto rounded-md shadow'>
-                FEATURES
-            </div>
+
             {/* 2 SPOTS FOR NEWS */}
-            {/* {newsData.slice(0, 2).map((newsItem, index) => {
+            {newsData.slice(0, 2).map((newsItem, index) => {
                 return (
-                    <div className=''>
+                    <div className='shadow-2xl rounded-lg'>
                         <img
                             className="w-full h-32 object-cover"
                             src="/assets/images/teamHoustonPic.jpg"
@@ -48,11 +34,12 @@ const LatestNews = () => {
                         />
                         <div className="p-5">
                             <h2 className='font-bold text-xl'>{newsItem.title}</h2>
-                            <p>{newsItem.title}</p>
+                            <p className='text-sm text-gray-700'>{newsItem.date}</p>
+                            <p className='text-gray-700'>{newsItem.desc}</p>
                         </div>
                     </div>
                 )
-            })} */}
+            })}
 
         </div>
     );
