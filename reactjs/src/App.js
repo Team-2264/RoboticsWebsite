@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/hero";
 import LatestNews from "./components/lastestNews";
+import Datebar from "./components/dateBar";
 import "./App.css"
 // 
 // 
@@ -15,14 +16,14 @@ const App = () => {
             <NavBar />
             <Hero />
             <br></br>
+            <br></br>
             <LatestNews />
-            <div> absolute</div>
-            <div> absolute</div>
-            <div> absolute</div>
-            <div> absolute</div>
-            <div> absolute</div>
-            <div> absolute</div>
-            <div> absolute</div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
         </div>
     );
 }
