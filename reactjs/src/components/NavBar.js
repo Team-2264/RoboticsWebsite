@@ -31,7 +31,7 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navBarViewOptions = ["News", "Sponsors", "Events", "Contact"]
-  const trojanRoboticsLogoPath = "/assets/images/trojanRoboticsLogo.png"
+  const trojanRoboticsLogoPath = "/assets/images/trojanRoboticsLogoandText.png"
   return (
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -127,6 +127,7 @@ export default function NavBar() {
               <img
                 className="h-8 w-auto"
                 src={trojanRoboticsLogoPath}
+                // src = "/assets/images/trojanRoboticsLogo.png"
                 alt=""
               />
             </a>

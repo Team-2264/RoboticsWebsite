@@ -29,6 +29,7 @@ const LatestNews = () => {
             <div className="w-full grid grid-cols-1 sm:grid-cols-3 justify-center gap-5">
                 <div className='shawdow-2xl'>
                     <h1 className='text-2xl font-bold'>Upcoming Events</h1>
+                    <p className='text-gray-700'>Join us and cheer us on in person!</p>
                     <Datebar />
                     <Datebar />
                     <br></br>
