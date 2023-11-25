@@ -6,12 +6,14 @@ const LatestNews = () => {
         {
             title: "Trojan Robotics in Houston",
             desc: "Read about our competition in Houston!",
-            date: "April 30, 2023"
+            date: "April 30, 2023",
+            srcOfImage: "/assets/images/teamHoustonPic.jpg"
         },
         {
             title: "Iowa Regional",
             desc: "Read about our Houston qualifying tournament",
-            date: "March 23, 2023"
+            date: "March 23, 2023",
+            srcOfImage: "/assets/images/trojanRoboticsIowa2023.jpg"
         }
 
     ]
@@ -34,14 +36,14 @@ const LatestNews = () => {
                 </div>
                 <div className="col-span-2">
                     <h2 className='text-2xl font-bold'>Latest News</h2>
-                    <p className='text-gray-700 pt-1'>Latest news straight from Trojan Robotics</p>
+                    <p className='text-gray-700 pt-1 pb-1'>Latest news straight from Trojan Robotics</p>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                         {newsData.slice(0, 2).map((newsItem, index) => {
                             return (
                                 <div className='shadow-2xl rounded-lg'>
                                     <img
                                         className="w-full h-32 object-cover"
-                                        src="/assets/images/teamHoustonPic.jpg"
+                                        src={newsItem.srcOfImage}
                                         alt={"backgorund"}
                                     />
                                     <div className="p-5">
