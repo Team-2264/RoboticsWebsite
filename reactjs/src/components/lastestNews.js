@@ -17,47 +17,47 @@ const LatestNews = () => {
     ]
     return (
         <div >
-            {/* <div className='grid grid-cols-1 sm:grid-cols-3'>
-                <h1 className='text-2xl font-bold'>Upcoming Events</h1>
-                <div>
-                    <h1 className='text-2xl font-bold font-sans'>Latest News</h1>
-                    <br></br>
-                    <p className='text-gray-700'>All the latest Trojan Robotics news, straight from the team</p>
-                </div>
-            </div> */}
             <br></br>
             <div className="w-full grid grid-cols-1 sm:grid-cols-3 justify-center gap-5">
-                <div className='shawdow-2xl'>
-                    <h1 className='text-2xl font-bold'>Upcoming Events</h1>
-                    <p className='text-gray-700'>Join us and cheer us on in person!</p>
-                    <Datebar />
-                    <Datebar />
+                <div className='h-full flex flex-col justify-between'>
+                    <div>
+                        <h1 className='text-2xl font-bold'>Upcoming Events</h1>
+                        <p className='text-gray-700 pt-1'>Join us and cheer us on in person!</p>
+                        <Datebar />
+                    </div>
                     <br></br>
-                    <h1 className='text-2xl font-bold'>Upcoming Practices</h1>
-                    <Datebar />
-                    <Datebar />
-
+                    <div>
+                        <h1 className='text-2xl font-bold'>Upcoming Practices</h1>
+                        <Datebar />
+                        <Datebar />
+                    </div>
+                </div>
+                <div className="col-span-2">
+                    <h2 className='text-2xl font-bold'>Latest News</h2>
+                    <p className='text-gray-700 pt-1'>Latest news straight from Trojan Robotics</p>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+                        {newsData.slice(0, 2).map((newsItem, index) => {
+                            return (
+                                <div className='shadow-2xl rounded-lg'>
+                                    <img
+                                        className="w-full h-32 object-cover"
+                                        src="/assets/images/teamHoustonPic.jpg"
+                                        alt={"backgorund"}
+                                    />
+                                    <div className="p-5">
+                                        <h2 className='font-bold text-xl'>{newsItem.title}</h2>
+                                        <p className='text-sm text-gray-700'>{newsItem.date}</p>
+                                        <br></br>
+                                        <p className='text-gray-700'>{newsItem.desc}</p>
+                                        <br></br>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
                 {/* 2 SPOTS FOR NEWS */}
-                {newsData.slice(0, 2).map((newsItem, index) => {
-                    return (
-                        
-                        <div className='shadow-2xl rounded-lg'>
-                            <img
-                                className="w-full h-32 object-cover"
-                                src="/assets/images/teamHoustonPic.jpg"
-                                alt={"backgorund"}
-                            />
-                            <div className="p-5">
-                                <h2 className='font-bold text-xl'>{newsItem.title}</h2>
-                                <p className='text-sm text-gray-700'>{newsItem.date}</p>
-                                <br></br>
-                                <p className='text-gray-700'>{newsItem.desc}</p>
-                                <br></br>
-                            </div>
-                        </div>
-                    )
-                })}
+
             </div>
         </div>
     );

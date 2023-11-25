@@ -3,12 +3,12 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Hero({ programName, applyLink }) {
   return (
-    <div className="bg-gray-100">
+    <div>
       <div className="lg:pt-5">
         {/* Hero card */}
         <div className="relative">
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-white" />
-          <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <div className="absolute inset-0">
                 <img
