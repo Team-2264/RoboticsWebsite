@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/hero";
 import LatestNews from "./components/lastestNews";
 import SponsorsHomePage from "./components/sponsorsHomePage";
+import Footer from "./components/footer";
 import "./App.css"
 // 
 // 
@@ -19,10 +20,9 @@ const App = () => {
             <br></br>
             <SponsorsHomePage />
             <br></br>
+            <Footer />
             <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+   
         </div>
     );
 }
