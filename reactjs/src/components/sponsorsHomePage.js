@@ -55,6 +55,14 @@ const SponsorsHomePage = () => {
                         src = "/sponsorLogoes/whsLogo.png"
                     />
                 </div>
+                <div className="m-auto justify-center">
+                    <img
+                        height="90"
+                        width="160"
+                        className="grayscale m-auto justify-center" 
+                        src = "/sponsorLogoes/novoEngineeringSponsorLogo.png"
+                    />
+                </div>
             </div >
         </div>
     );
