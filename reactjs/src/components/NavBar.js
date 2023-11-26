@@ -15,8 +15,8 @@ import { Link } from 'react-router-dom'
 const products = [
   { name: 'Trojan Robotics', description: 'Learn about our team and the team\'s history', href: '#', icon: TrophyIcon },
   { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon },
-  { name: 'Mentors', description: 'Meet our mentors', href: '#', icon: UserGroupIcon },
+  { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon, route:"/students" },
+  { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
   { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon },
 ]
 const callsToAction = [
@@ -41,7 +41,7 @@ export default function NavBar() {
             <span className="sr-only">Your Company</span>
             {/* <Link to={`/${title.toLowerCase()}`}>{title}</Link> */}
             <Link to="/home">
-            <img className="h-8 w-auto" src={trojanRoboticsLogoPath} alt=""/>
+              <img className="h-8 w-auto" src={trojanRoboticsLogoPath} alt="" />
             </Link>
           </a>
         </div>
@@ -71,6 +71,7 @@ export default function NavBar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
+
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
@@ -81,13 +82,19 @@ export default function NavBar() {
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
-                      <div className="flex-auto">
-                        <a href={item.href} className="block font-semibold text-gray-900">
-                          {item.name}
-                          <span className="absolute inset-0" />
-                        </a>
-                        <p className="mt-1 text-gray-600">{item.description}</p>
-                      </div>
+
+                      {/* <a key={title} href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                  <Link to={`/${title.toLowerCase()}`}>{title}</Link>
+                </a> */}
+                      <Link to={item.route}>
+                        <div className="flex-auto">
+                          <a href={item.href} key={item.name} className="block font-semibold text-gray-900">
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">{item.description}</p>
+                        </div>
+                      </Link>
                     </div>
                   ))}
                 </div>
@@ -159,14 +166,16 @@ export default function NavBar() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...products, ...callsToAction].map((item) => (
-                          <Disclosure.Button
-                            key={item.name}
-                            as="a"
-                            href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                          >
-                            {item.name}
-                          </Disclosure.Button>
+                          <Link to={item.route}>
+                            <Disclosure.Button
+                              key={item.name}
+                              as="a"
+                              href={item.href}
+                              className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            >
+                              {item.name}
+                            </Disclosure.Button>
+                          </Link>
                         ))}
                       </Disclosure.Panel>
                     </>

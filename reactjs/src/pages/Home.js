@@ -7,7 +7,6 @@ import SponsorsHomePage from "../components/sponsorsHomePage";
 import "../App.css"
 
 
-
 export default function Home (){
     return (
         <>
