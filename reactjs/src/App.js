@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/MentorsAndCoaches";
 import MentorsAndCoaches from "./pages/MentorsAndCoaches";
+import Students from "./pages/students";
 // import React from "react";
 // import NavBar from "./components/NavBar";
 // import Hero from "./components/hero";
@@ -21,9 +22,11 @@ const App = () => {
         <div className="max-w-8xl m-auto px-4 sm:px-6 lg:px-8">
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<MentorsAndCoaches />} />
+                    <Route index element={<Home />} />
                     <Route path="/home" element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/mentors' element={<MentorsAndCoaches />}/>
+                    <Route path='/students'element={<Students/>} />
                     {/* <Route path="*" element={<NoPage />}></Route> */}
                 </Routes>
             </BrowserRouter>

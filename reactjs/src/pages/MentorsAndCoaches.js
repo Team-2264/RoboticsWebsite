@@ -6,7 +6,7 @@ export default function MentorsAndCoaches() {
         {
             name: "Nira Rajan",
             title: "Head Coach",
-            desc: "Nira has been mentoring with the team for 5 years now, and is now the head coach! Outside of robotics she loves spending time outdoors!",
+            desc: "Nira has been mentoring with the team for 5 years now, and is now the head coach! Outside of robotics she loves spending time outdoors with her boys!",
             imgSrc: "/mentorImages/headCoach.jpg"
         },
         {
@@ -81,7 +81,7 @@ export default function MentorsAndCoaches() {
                                 <div className="grid grid-cols-1 md:grid-cols-3">
                                     <img className="rounded-lg" src={info.imgSrc} />
                                     <div className="md:col-span-2 md:pl-6">
-                                        <h1 className="font-bold text-lg">{info.name}</h1>
+                                        <h1 className="font-bold text-xl">{info.name}</h1>
                                         <h1 className="font-bold text-base text-blue-800 pt-1">{info.title}</h1>
                                         <p className="font-xs text-gray-700 pt-4">{info.desc}</p>
                                     </div>
