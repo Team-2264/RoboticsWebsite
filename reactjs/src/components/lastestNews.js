@@ -42,7 +42,7 @@ const LatestNews = () => {
                             return (
                                 <div className='shadow-2xl rounded-lg'>
                                     <img
-                                        className="w-full h-32 object-cover rounded-lg"
+                                        className="w-full h-32 object-cover rounded-t-lg"
                                         src={newsItem.srcOfImage}
                                         alt={"backgorund"}
                                     />
