@@ -10,6 +10,7 @@ import {
   UserGroupIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { Link } from 'react-router-dom'
 
 const products = [
   { name: 'Trojan Robotics', description: 'Learn about our team and the team\'s history', href: '#', icon: TrophyIcon },
@@ -38,7 +39,10 @@ export default function NavBar() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src={trojanRoboticsLogoPath} alt="" />
+            {/* <Link to={`/${title.toLowerCase()}`}>{title}</Link> */}
+            <Link to="/home">
+            <img className="h-8 w-auto" src={trojanRoboticsLogoPath} alt=""/>
+            </Link>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -107,7 +111,7 @@ export default function NavBar() {
             navBarViewOptions.map((title) => {
               return (
                 <a key={title} href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                  {title}
+                  <Link to={`/${title.toLowerCase()}`}>{title}</Link>
                 </a>
               );
             })

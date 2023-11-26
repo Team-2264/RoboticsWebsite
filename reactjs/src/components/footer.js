@@ -9,7 +9,7 @@ const Footer = () => {
                 {/* <div className="flex justify-center space-x-6 md:order-2">
                     
                 </div> */}
-                <div class="flex justify-center space-x-6 md:order-2">
+                <div class="flex justify-center space-x-6 md:order-2 pt-4">
                     {/* <a href="https://facebook.com/2767strykeforce" target="_blank" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">Facebook</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

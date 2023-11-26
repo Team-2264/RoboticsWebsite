@@ -16,7 +16,6 @@ export default function Home (){
             <LatestNews />
             <br></br>
             <SponsorsHomePage />
-            <br></br>
             <Footer />
             <br></br>
         </>

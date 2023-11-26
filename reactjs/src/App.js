@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import NoPage from "./pages/noPage";
+import NoPage from "./pages/MentorsAndCoaches";
+import MentorsAndCoaches from "./pages/MentorsAndCoaches";
 // import React from "react";
 // import NavBar from "./components/NavBar";
 // import Hero from "./components/hero";
@@ -20,10 +21,10 @@ const App = () => {
         <div className="max-w-8xl m-auto px-4 sm:px-6 lg:px-8">
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<Home />}/>
+                    <Route index element={<Home />} />
                     <Route path="/home" element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
-                    <Route path="*" element={<NoPage />}></Route>
+                    {/* <Route path="*" element={<NoPage />}></Route> */}
                 </Routes>
             </BrowserRouter>
         </div>
@@ -31,3 +32,7 @@ const App = () => {
 }
 
 export default App;
+
+
+
+

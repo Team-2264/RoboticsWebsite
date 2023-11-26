@@ -1,10 +1,10 @@
 import Footer from "../components/footer";
-
+import NavBar from "../components/NavBar";
 export default function Contact(){
     return (
-        <>
-            <Footer />
-            <h1>Contact</h1>
-        </>
+        <div>
+            <NavBar />
+            <h1>Contact page needs some work to be done.</h1>
+        </div>
     )
 }
