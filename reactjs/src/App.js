@@ -1,20 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import NoPage from "./pages/MentorsAndCoaches";
+import NoPage from "./pages/noPage";
 import MentorsAndCoaches from "./pages/MentorsAndCoaches";
 import Students from "./pages/students";
-// import React from "react";
-// import NavBar from "./components/NavBar";
-// import Hero from "./components/hero";
-// import LatestNews from "./components/lastestNews";
-// import SponsorsHomePage from "./components/sponsorsHomePage";
-// import Footer from "./components/footer";
-// import "./App.css"
-// 
-// 
-// 
-// 
+
 
 const App = () => {
 
@@ -27,7 +17,7 @@ const App = () => {
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/mentors' element={<MentorsAndCoaches />}/>
                     <Route path='/students'element={<Students/>} />
-                    {/* <Route path="*" element={<NoPage />}></Route> */}
+                    <Route path="*" element={<NoPage />}></Route>
                 </Routes>
             </BrowserRouter>
         </div>
