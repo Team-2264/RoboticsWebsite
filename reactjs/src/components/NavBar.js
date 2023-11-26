@@ -17,7 +17,7 @@ const products = [
   { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', icon: CursorArrowRaysIcon },
   { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon },
   { name: 'Mentors', description: 'Meet our mentors', href: '#', icon: UserGroupIcon },
-  { name: 'Community Outreach', description: 'Build strategic funnels that will convert', href: '#', icon: GlobeAltIcon },
+  { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
