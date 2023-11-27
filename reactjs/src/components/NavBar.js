@@ -19,10 +19,6 @@ const products = [
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
   { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon },
 ]
-const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
-]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -99,7 +95,7 @@ export default function NavBar() {
                   ))}
                 </div>
                 <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                  {callsToAction.map((item) => (
+                  {/* {callsToAction.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -108,7 +104,7 @@ export default function NavBar() {
                       <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                       {item.name}
                     </a>
-                  ))}
+                  ))} */}
                 </div>
               </Popover.Panel>
             </Transition>
@@ -165,7 +161,7 @@ export default function NavBar() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {products.map((item) => (
                           <Link to={item.route}>
                             <Disclosure.Button
                               key={item.name}

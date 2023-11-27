@@ -24,7 +24,7 @@ export default function Students() {
         {
             name: "Avi Bandi",
             title: "Outreach Co-Captain and Webmaster",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Hey guys, I do absoultley nothing and take the credit for everything. Nice for air force academy admissions. test test test stset test stes test test ",
             imgSrc: "/studentImages/aviBandi.jpg"
         },
         {
@@ -38,13 +38,13 @@ export default function Students() {
             title: "Mechanical Co-Captain",
             desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
             imgSrc: "/studentImages/ankushNayak.jpg"
-        }, 
+        },
         {
             name: "Viswas Vallabaneni",
             title: "Marketing Co-Captain",
             desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
             imgSrc: "/studentImages/viswasValla.jpg"
-        }, 
+        },
         {
             name: "Lakshmi Kandikonda",
             title: "Marketing Co-Capatain",
@@ -54,7 +54,7 @@ export default function Students() {
         {
             name: "Eva Roberts",
             title: "Saftey Captain",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "I love working with my hands and aspire to be an aerospace engineer one day!",
             imgSrc: "/studentImages/evaRoberts.jpg"
         },
 
@@ -68,17 +68,18 @@ export default function Students() {
                 <div >
                     <h1 className="font-bold text-center text-3xl">Trojan Robotics Team Members</h1>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 pt-8 gap-8 pb-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 pt-9 gap-8 pb-4">
 
                     {
                         students.map((info) => {
                             return (
                                 <div className="grid grid-cols-1 md:grid-cols-3">
-                                    <img className="rounded-lg" src={info.imgSrc} />
+
+                                    <img className="rounded-lg shadow-2xl" src={info.imgSrc} />
                                     <div className="md:col-span-2 md:pl-6">
                                         <h1 className="font-bold text-xl">{info.name}</h1>
                                         <h1 className="font-bold text-base text-blue-800 pt-1">{info.title}</h1>
-                                        <p className="font-xs text-gray-700 pt-4">{info.desc}</p>
+                                        <p className="font-xs text-gray-700 pt-2">{info.desc}</p>
                                     </div>
                                 </div>
                             )
