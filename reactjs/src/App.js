@@ -12,7 +12,7 @@ const App = () => {
         <div className="max-w-8xl m-auto px-4 sm:px-6 lg:px-8">
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<Contact />} />
+                    <Route index element={<OutReach />} />
                     <Route path="/home" element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/mentors' element={<MentorsAndCoaches />}/>

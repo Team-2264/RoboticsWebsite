@@ -7,13 +7,13 @@ import {
   XMarkIcon,
   UserCircleIcon,
   GlobeAltIcon,
-  UserGroupIcon
+  UserGroupIcon,
+  ChevronDownIcon
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import { Link } from 'react-router-dom'
 
 const products = [
-  { name: 'Trojan Robotics', description: 'Learn about our team and the team\'s history', href: '#', icon: TrophyIcon },
+  // { name: 'Trojan Robotics', description: 'Learn about our team and the team\'s history', href: '#', icon: TrophyIcon },
   { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', icon: CursorArrowRaysIcon },
   { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon, route:"/students" },
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
