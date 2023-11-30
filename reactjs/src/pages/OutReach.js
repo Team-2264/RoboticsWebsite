@@ -3,10 +3,17 @@ import NavBar from "../components/NavBar"
 export default function OutReach() {
     const outReachSource = [
         {
-            blogName: "Plymouth on Parade",
+            blogName: "Wayzata Homecoming Block Party",
             author: "Avi bandi",
             date: "12/9/23",
-            blog: "High cortisol is corelated with a broad set of symptoms, including weight gain (especially in the midsection and face), sleep problems, acne, intense cravings for sweet or salty foods, and difficulty maintaining energy levels throughout the day. One common way of describing the experience of high cortisol is feeling “wired and tired.” High cortisol is a real medical condition, and many of these symptoms can be telltale signs — not of a definitive diagnosis but of a need for further testing.",
+            blog: "Our robotics team recently traveled to Plymouth to take part in a local parade. We towed a float showcasing our team's technical prowess and engaged with the community along the lively parade route. At our booth, we went beyond just talking about robotics – we provided a hands-on experience for little kids, letting them interact with our robots to inspire an early interest in science and technology. This event not only highlighted our team's achievements in robotics but also deepened our ties with the local community, fostering a sense of connection and enthusiasm for STEM.",
+            imgSrc: "/mentorImages/headCoach.jpg"
+        },
+        {
+            blogName: "Trojan Robotics at Plymouth on Parade",
+            author: "Avi bandi",
+            date: "12/9/23",
+            blog: "Our robotics team recently traveled to Plymouth to take part in a local parade. We towed a float showcasing our team's technical prowess and engaged with the community along the lively parade route. At our booth, we went beyond just talking about robotics – we provided a hands-on experience for little kids, letting them interact with our robots to inspire an early interest in science and technology. This event not only highlighted our team's achievements in robotics but also deepened our ties with the local community, fostering a sense of connection and enthusiasm for STEM.",
             imgSrc: "/mentorImages/headCoach.jpg"
         }
     ]
@@ -18,39 +25,35 @@ export default function OutReach() {
                 {
                     outReachSource.map((blog) => {
                         return (
-                            <div>
-                                <h1 className="text-center ">{blog.blogName}</h1>
-                                <div className=" pb-4 mx-auto max-w-lg py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
-                                    <h1 className="text-sm text-blue-700">{blog.author}</h1>
-                                    <h1 className="text-sm text-blue-700">{blog.date}</h1>
+                            <div className="max-w-lg mx-auto">
+                                <h1 className="text-center font-bold text-xl text-blue-800">{blog.blogName}</h1>
+                                <div className=" pb-4  py-12 px-4 md:flex md:items-center md:justify-between lg:px-8">
+                                    <h1 className="text-sm">{`By: ${blog.author}`}</h1>
+                                    <h1 className="text-sm">{blog.date}</h1>
                                 </div>
-                                <img
-                                    classNamebg= "[length:200px_100px]"
-                                    src={blog.imgSrc}
-                                />
+                                <div className="h-[300px] overflow-hidden rounded-lg shadow-xl">
+                                    <img
+                                        src={blog.imgSrc}
+                                    />
+                                </div>
+                                <p className="pt-4 pl-1">{blog.blog}</p>
+                                <br></br>
                             </div>
                         );
                     })
                 }
-                {/* {outReachSource.map((blog) =>
-  
-                    <div className="mx-auto max-w-lg py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
-                        <h1>{`By: ${blog.author}`}</h1>
-                        <h1>{blog.date}</h1>
-                    </div>
-                )} */}
-                {/* {
-            navBarViewOptions.map((title) => {
-              return (
-                <a key={title} href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                  <Link to={`/${title.toLowerCase()}`}>{title}</Link>
-                </a>
-              );
-            })
-          } */}
+
 
 
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
         </div>
     )
 }

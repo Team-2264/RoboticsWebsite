@@ -14,10 +14,10 @@ import { Link } from 'react-router-dom'
 
 const products = [
   // { name: 'Trojan Robotics', description: 'Learn about our team and the team\'s history', href: '#', icon: TrophyIcon },
-  { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', icon: CursorArrowRaysIcon },
+  { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', icon: CursorArrowRaysIcon},
   { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon, route:"/students" },
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
-  { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon },
+  { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon, route: "/outreach" },
 ]
 
 function classNames(...classes) {
@@ -79,9 +79,6 @@ export default function NavBar() {
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
 
-                      {/* <a key={title} href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                  <Link to={`/${title.toLowerCase()}`}>{title}</Link>
-                </a> */}
                       <Link to={item.route}>
                         <div className="flex-auto">
                           <a href={item.href} key={item.name} className="block font-semibold text-gray-900">
