@@ -33,6 +33,7 @@ export default function Hero({ programName, applyLink }) {
                 <p className="mt-6 max-w-lg mx-auto text-center text-xl text-gray-200 sm:max-w-3xl">
                 Trojan Robotics FIRST Robotics Team 2264 is a community robotics team based in Plymouth, Minnesota
                 </p>
+                
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                     <a
@@ -52,6 +53,8 @@ export default function Hero({ programName, applyLink }) {
                     </AnchorLink>
                   </div>
                 </div>
+              
+              
               </div>
             </div>
           </div>

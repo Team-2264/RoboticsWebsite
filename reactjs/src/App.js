@@ -5,6 +5,7 @@ import NoPage from "./pages/noPage";
 import MentorsAndCoaches from "./pages/MentorsAndCoaches";
 import Students from "./pages/students";
 import OutReach from "./pages/OutReach";
+import Events from "./pages/Events";
 
 const App = () => {
 
@@ -12,7 +13,7 @@ const App = () => {
         <div className="max-w-8xl m-auto px-4 sm:px-6 lg:px-8">
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<OutReach />} />
+                    <Route index element={<Events />} />
                     <Route path="/home" element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/mentors' element={<MentorsAndCoaches />}/>
