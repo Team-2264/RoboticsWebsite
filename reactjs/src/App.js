@@ -19,7 +19,9 @@ const App = () => {
                     <Route path='/mentors' element={<MentorsAndCoaches />}/>
                     <Route path='/students' element={<Students/>} />
                     <Route path='/outreach' element={<OutReach />}/>
+                    <Route path='/events' element={<Events />}/>
                     <Route path="*" element={<NoPage />}></Route>
+                    
                 </Routes>
             </BrowserRouter>
         </div>
