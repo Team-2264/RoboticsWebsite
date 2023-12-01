@@ -25,13 +25,13 @@ const LatestNews = () => {
                     <div>
                         <h1 className='text-2xl font-bold'>Upcoming Events</h1>
                         <p className='text-gray-700 pt-1'>Join us and cheer us on in person!</p>
-                        <Datebar />
+                        <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
                     </div>
                     <br></br>
                     <div>
                         <h1 className='text-2xl font-bold'>Upcoming Practices</h1>
-                        <Datebar />
-                        <Datebar />
+                        <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
+                        <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
                     </div>
                 </div>
                 <div className="col-span-2">
