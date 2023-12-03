@@ -8,6 +8,10 @@ import OutReach from "./pages/OutReach";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
 import News from "./pages/News";
+
+
+
+
 const App = () => {
 
     return (
