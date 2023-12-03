@@ -7,14 +7,14 @@ import Students from "./pages/students";
 import OutReach from "./pages/OutReach";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
-
+import News from "./pages/News";
 const App = () => {
 
     return (
         <div className="max-w-8xl m-auto px-4 sm:px-6 lg:px-8">
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<Sponsors />} />
+                    <Route index element={<News />} />
                     <Route path="/home" element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/mentors' element={<MentorsAndCoaches />}/>
