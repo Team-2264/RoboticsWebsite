@@ -8,10 +8,13 @@ import OutReach from "./pages/OutReach";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import News from "./pages/News";
 
 
 
+=======
+>>>>>>> parent of 42fce15d (the contact page is smthg)
 =======
 >>>>>>> parent of 42fce15d (the contact page is smthg)
 

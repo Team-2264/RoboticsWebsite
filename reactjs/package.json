@@ -9,8 +9,11 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "firebase": "^10.7.0",
     "formik": "^2.4.5",
+=======
+>>>>>>> parent of 42fce15d (the contact page is smthg)
 =======
 >>>>>>> parent of 42fce15d (the contact page is smthg)
     "react": "^18.2.0",
