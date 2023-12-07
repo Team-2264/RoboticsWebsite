@@ -17,16 +17,11 @@ export default function Events() {
                     {
                         events.map((event) => {
                             return (
-                                <Datebar month={event.month} date={event.date} name={event.name} location={event.location}/>
+                                <Datebar month={event.month} date={event.date} name={event.name} location={event.location} />
                             );
                         })
                     }
-                    {/* <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-                    <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-                    <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-                    <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-                    <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-    */}             </div> */
+                </div> */
 
                 <br></br>
                 <h1 className="font-bold text-2xl text-left pt:8">2024 Season Calender</h1>

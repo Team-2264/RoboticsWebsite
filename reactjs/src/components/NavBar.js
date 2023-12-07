@@ -14,8 +14,8 @@ import { Link } from 'react-router-dom'
 
 const products = [
   // { name: 'Trojan Robotics', description: 'Learn about our team and the team\'s history', href: '#', icon: TrophyIcon },
-  { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', icon: CursorArrowRaysIcon},
-  { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon, route:"/students" },
+  { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', route: "https://www.firstinspires.org/robotics/frc", icon: CursorArrowRaysIcon },
+  { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon, route: "/students" },
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
   { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon, route: "/outreach" },
 ]
@@ -79,7 +79,16 @@ export default function NavBar() {
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
 
-                      <Link to={item.route}>
+                      {
+                      item.name === "FIRST" ? <a href={item.route}>
+                        <div className="flex-auto">
+                          <a href={item.route} key={item.name} className="block font-semibold text-gray-900">
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">{item.description}</p>
+                        </div>
+                      </a> : <Link to={item.route}>
                         <div className="flex-auto">
                           <a href={item.href} key={item.name} className="block font-semibold text-gray-900">
                             {item.name}
@@ -88,6 +97,8 @@ export default function NavBar() {
                           <p className="mt-1 text-gray-600">{item.description}</p>
                         </div>
                       </Link>
+                      }
+
                     </div>
                   ))}
                 </div>
