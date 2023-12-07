@@ -79,6 +79,8 @@ export default function NavBar() {
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
 
+
+
                       {
                       item.name === "FIRST" ? <a href={item.route}>
                         <div className="flex-auto">
