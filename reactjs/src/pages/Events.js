@@ -1,15 +1,10 @@
 import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
 import Datebar from "../components/dateBar";
+import events from "../data/events";
+
 export default function Events() {
-    const events = [
-        {
-            name: "Lake Superior Regional",
-            month: "Mar",
-            date: "7",
-            location: "Duluth MN"
-        }
-    ]
+
     return (
         <div>
             <NavBar />
@@ -18,12 +13,20 @@ export default function Events() {
                 <h1 className="font-bold text-2xl text-left pt:8">2024 Season Events</h1>
                 <h2 className="pt-2 text-gray-700">Join us in person or stream the event online and cheer us on!</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+
+                    {
+                        events.map((event) => {
+                            return (
+                                <Datebar month={event.month} date={event.date} name={event.name} location={event.location}/>
+                            );
+                        })
+                    }
+                    {/* <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
                     <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
                     <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
                     <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
                     <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-                    <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-                </div>
+    */}             </div> */
 
                 <br></br>
                 <h1 className="font-bold text-2xl text-left pt:8">2024 Season Calender</h1>

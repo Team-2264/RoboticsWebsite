@@ -54,7 +54,7 @@ export default function Students() {
         {
             name: "Eva Roberts",
             title: "Saftey Captain",
-            desc: "I love working with my hands and aspire to be an aerospace engineer one day!",
+            desc: "Eva always love creating something out of seemingly nothing, especially with a team. She aspires to be an aerospace engineer one day!",
             imgSrc: "/studentImages/evaRoberts.jpg"
         },
 
@@ -79,7 +79,7 @@ export default function Students() {
                                     <div className="md:col-span-2 md:pl-6">
                                         <h1 className="font-bold text-xl">{info.name}</h1>
                                         {/* <h1 className="font-bold text-base text-blue-800 pt-1">{info.title}</h1> */}
-                                        <h1 className="font-bold text-base text-blue-800 pt-1">Captain</h1>
+                                        <h1 className="font-bold text-base text-blue-800 pt-1">{info.title}</h1>
 
                                         <p className="font-xs text-gray-700 pt-2">{info.desc}</p>
                                     </div>

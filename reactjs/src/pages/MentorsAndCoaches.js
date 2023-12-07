@@ -38,17 +38,17 @@ export default function MentorsAndCoaches() {
             title: "Mechanical Mentor",
             desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
             imgSrc: "/mentorImages/brianBierman.jpg"
-        }, 
+        },
         {
             name: "Jenny Zeroni",
             title: "Marketing and Mechanical Mentor",
             desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
             imgSrc: "/mentorImages/jennyZeroni.jpg"
-        }, 
+        },
         {
             name: "Mahima Nayak",
             title: "Outreach and Marketing Mentor",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Hi everyone, I am an IT professional working at Medtronic. This is my second year working with FIRST robotics. I enjoy working with creative individuals who think outside the box and learn throuh their experience.",
             imgSrc: "/mentorImages/mahimaNayak.jpg"
         },
         {
