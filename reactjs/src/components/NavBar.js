@@ -82,7 +82,7 @@ export default function NavBar() {
 
 
                       {
-                      item.name === "FIRST" ? <a href={item.route} target="_blank" rel="noreferrer noopener">
+                      item.name === "FIRST" ? <a href={item.route}>
                         <div className="flex-auto">
                           <a href={item.route} key={item.name} className="block font-semibold text-gray-900">
                             {item.name}
