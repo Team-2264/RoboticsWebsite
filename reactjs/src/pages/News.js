@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 export default function News() {
     return (
         <div>
-            <NavBar />'
+            <NavBar />
             <br></br>
             <div className="max-w-xl mx-auto">
                 <h1 className="text-2xl font-bold">Trojan Robotics News</h1>
