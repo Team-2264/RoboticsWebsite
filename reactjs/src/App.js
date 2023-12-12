@@ -8,14 +8,7 @@ import OutReach from "./pages/OutReach";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
 import News from "./pages/News";
-import ArticlePage from "./components/articlePage";
 const App = () => {
-
-    const newsData = [
-        { title: 'Article 1', summary: 'Summary for Article 1', content: 'Content for Article 1' },
-        { title: 'Article 2', summary: 'Summary for Article 2', content: 'Content for Article 2' },
-        // Add more articles as needed
-      ];
 
     return (
         <div className="max-w-8xl m-auto px-4 sm:px-6 lg:px-8">
@@ -24,14 +17,14 @@ const App = () => {
                     <Route index element={<News />} />
                     <Route path="/home" element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
-                    <Route path='/mentors' element={<MentorsAndCoaches />} />
-                    <Route path='/students' element={<Students />} />
-                    <Route path='/outreach' element={<OutReach />} />
-                    <Route path='/events' element={<Events />} />
-                    <Route path='/sponsors' element={<Sponsors />} />
+                    <Route path='/mentors' element={<MentorsAndCoaches />}/>
+                    <Route path='/students' element={<Students/>} />
+                    <Route path='/outreach' element={<OutReach />}/>
+                    <Route path='/events' element={<Events />}/>
+                    <Route path='/sponsors' element={<Sponsors />}/>
                     <Route path="*" element={<NoPage />}></Route>
-                    <Route path= "/news" element={<News />}></Route>
-                    <Route path="/article/:index" Component={(props) => <ArticlePage {...props} newsData={newsData} />} />
+
+                    
                 </Routes>
             </BrowserRouter>
         </div>
