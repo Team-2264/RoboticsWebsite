@@ -9,19 +9,15 @@ import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
 import News from "./pages/News";
 import ArticlePage from "./components/articlePage";
+import AboutUs from "./pages/aboutUs";
 const App = () => {
 
-    const newsData = [
-        { title: 'Article 1', summary: 'Summary for Article 1', content: 'Content for Article 1' },
-        { title: 'Article 2', summary: 'Summary for Article 2', content: 'Content for Article 2' },
-        // Add more articles as needed
-      ];
 
     return (
         <div className="max-w-8xl m-auto px-4 sm:px-6 lg:px-8">
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<News />} />
+                    <Route index element={<AboutUs />} />
                     <Route path="/home" element={<Home />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/mentors' element={<MentorsAndCoaches />} />
@@ -31,7 +27,7 @@ const App = () => {
                     <Route path='/sponsors' element={<Sponsors />} />
                     <Route path="*" element={<NoPage />}></Route>
                     <Route path= "/news" element={<News />}></Route>
-                    <Route path="/article/:index" Component={(props) => <ArticlePage {...props} newsData={newsData} />} />
+                    <Route path="/article/:index" element={<ArticlePage />} />
                 </Routes>
             </BrowserRouter>
         </div>

@@ -3,35 +3,9 @@ import NavBar from "../components/NavBar";
 import ReactDOM from 'react-dom/client';
 import { Link } from "react-router-dom";
 
+
+import newsData from "../data/newsData";
 export default function News() {
-
-    const newsData = [
-        {
-            title: "Trojan Robotics in Houston",
-            desc: "Read about our competition in Houston!",
-            date: "April 30, 2023",
-            srcOfImage: "/assets/images/teamHoustonPic.jpg"
-        },
-        {
-            title: "Iowa Regional",
-            desc: "Read about our Houston qualifying tournament",
-            date: "March 23, 2023",
-            srcOfImage: "/assets/images/trojanRoboticsIowa2023.jpg"
-        },
-        {
-            title: "Trojan Robotics in Houston",
-            desc: "Read about our competition in Houston!",
-            date: "April 30, 2023",
-            srcOfImage: "/assets/images/teamHoustonPic.jpg"
-        },
-        {
-            title: "Iowa Regional",
-            desc: "Read about our Houston qualifying tournament",
-            date: "March 23, 2023",
-            srcOfImage: "/assets/images/trojanRoboticsIowa2023.jpg"
-        }
-
-    ]
 
 
     return (

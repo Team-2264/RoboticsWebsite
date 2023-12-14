@@ -13,7 +13,7 @@ import {
 import { Link } from 'react-router-dom'
 
 const products = [
-  // { name: 'Trojan Robotics', description: 'Learn about our team and the team\'s history', href: '#', icon: TrophyIcon },
+  { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon },
   { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', route: "https://www.firstinspires.org/robotics/frc", icon: CursorArrowRaysIcon },
   { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon, route: "/students" },
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
