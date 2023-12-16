@@ -79,7 +79,7 @@ export default function MentorsAndCoaches() {
                         mentors.map((info) => {
                             return (
                                 <div className="grid grid-cols-1 md:grid-cols-3">
-                                    <img className="rounded-lg" src={info.imgSrc} />
+                                    <img className="rounded-lg h-[185px] w-[185px]" src={info.imgSrc} />
                                     <div className="md:col-span-2 md:pl-6">
                                         <h1 className="font-bold text-xl">{info.name}</h1>
                                         <h1 className="font-bold text-base text-blue-800 pt-1">{info.title}</h1>

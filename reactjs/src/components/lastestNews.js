@@ -43,7 +43,7 @@ const LatestNews = () => {
                         {newsData.slice(0, 2).map((newsItem, index) => {
                             return (
                                 <Link to={`/article/${index}`}>
-                                    <div className='shadow-2xl rounded-lg'>
+                                    <div className='shadow-2xl rounded-lg h-full'>
                                         <img
                                             className="w-full h-32 object-cover rounded-t-lg"
                                             src={newsItem.srcOfImage}
