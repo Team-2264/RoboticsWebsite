@@ -1,23 +1,24 @@
 import React from 'react'
 import Datebar from './dateBar';
 import events from '../data/events';
-
+import newsData from '../data/newsData';
+import { Link } from 'react-router-dom';
 const LatestNews = () => {
-    const newsData = [
-        {
-            title: "Trojan Robotics in Houston",
-            desc: "Read about our competition in Houston!",
-            date: "April 30, 2023",
-            srcOfImage: "/assets/images/teamHoustonPic.jpg"
-        },
-        {
-            title: "Iowa Regional",
-            desc: "Read about our Houston qualifying tournament",
-            date: "March 23, 2023",
-            srcOfImage: "/assets/images/trojanRoboticsIowa2023.jpg"
-        }
+    // const newsData = [
+    //     {
+    //         title: "Trojan Robotics in Houston",
+    //         desc: "Read about our competition in Houston!",
+    //         date: "April 30, 2023",
+    //         srcOfImage: "/assets/images/teamHoustonPic.jpg"
+    //     },
+    //     {
+    //         title: "Iowa Regional",
+    //         desc: "Read about our Houston qualifying tournament",
+    //         date: "March 23, 2023",
+    //         srcOfImage: "/assets/images/trojanRoboticsIowa2023.jpg"
+    //     }
 
-    ]
+    // ]
     return (
         <div >
             <br></br>
@@ -41,20 +42,22 @@ const LatestNews = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                         {newsData.slice(0, 2).map((newsItem, index) => {
                             return (
-                                <div className='shadow-2xl rounded-lg'>
-                                    <img
-                                        className="w-full h-32 object-cover rounded-t-lg"
-                                        src={newsItem.srcOfImage}
-                                        alt={"backgorund"}
-                                    />
-                                    <div className="p-5">
-                                        <h2 className='font-bold text-xl'>{newsItem.title}</h2>
-                                        <p className='text-sm text-gray-700'>{newsItem.date}</p>
-                                        <br></br>
-                                        <p className='text-gray-700'>{newsItem.desc}</p>
-                                        <br></br>
+                                <Link to={`/article/${index}`}>
+                                    <div className='shadow-2xl rounded-lg'>
+                                        <img
+                                            className="w-full h-32 object-cover rounded-t-lg"
+                                            src={newsItem.srcOfImage}
+                                            alt={"backgorund"}
+                                        />
+                                        <div className="p-5">
+                                            <h2 className='font-bold text-xl'>{newsItem.title}</h2>
+                                            <p className='text-sm text-gray-700'>{newsItem.date}</p>
+                                            <br></br>
+                                            <p className='text-gray-700'>{newsItem.desc}</p>
+                                            <br></br>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             )
                         })}
                     </div>

@@ -27,6 +27,7 @@ const App = () => {
                     <Route path='/sponsors' element={<Sponsors />} />
                     <Route path="*" element={<NoPage />}></Route>
                     <Route path= "/news" element={<News />}></Route>
+                    <Route path="/aboutUs" element={<AboutUs />}/>
                     <Route path="/article/:index" element={<ArticlePage />} />
                 </Routes>
             </BrowserRouter>
