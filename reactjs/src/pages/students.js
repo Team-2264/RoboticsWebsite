@@ -6,49 +6,49 @@ export default function Students() {
         {
             name: "Rukshan Rajan",
             title: "Head Co-Captain",
-            desc: "Nira has been mentoring with the team for 5 years now, and is now the head coach! Outside of robotics she loves spending time outdoors with her boys!",
+            desc: "Rukshan has been doing robotics since he was in elementary school and loves working with his hands. In his free time he loves to mountain bike and participate in boy scouts.",
             imgSrc: "/studentImages/rukshanRajan.jpg"
         },
         {
             name: "Beck Bjella",
             title: "Head Co-Captain",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Beck has always had a strong passion for programming and is instrumental as of leading the programming team year after year. In his free time he loves to code and play pickleball.",
             imgSrc: "/studentImages/beck.jpg"
         },
         {
             name: "Yoojin Nam",
             title: "Outreach Co-Captain and Social Media Lead",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Yoojin is the driving force behind the social media presence of this team. She has implemented innovative methods to captivate the attention of our audience. She also led the development of our first ever outreach team!",
             imgSrc: "./studentImages/yoojinNam.jpg"
         },
         {
             name: "Avi Bandi",
             title: "Outreach Co-Captain and Webmaster",
-            desc: "Hey guys, I do absoultley nothing and take the credit for everything. Nice for air force academy admissions. test test test stset test stes test test ",
+            desc: "Avi was instrumental in creating the new outreach subdivision and was instrumental in creating our new website. In his free time he loves to program and have fun with his friends.",
             imgSrc: "/studentImages/aviBandi.jpg"
         },
         {
             name: "Neev Zeroni",
             title: "Mechanical Co-Captain",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Neev has been with the team for 4 years now and enjoys teaching people about mechanical engineering. Outside of school Neev is a big advocate for gun violence and loves to ski.",
             imgSrc: "/studentImages/neevZeroni.jpg"
         },
         {
             name: "Ankush Nayak",
             title: "Mechanical Co-Captain",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Ankush is a stellar robotics member that everyone can go to when they need help on a project or just with personel advice. In his free time he likes to play basketball.",
             imgSrc: "/studentImages/ankushNayak.jpg"
         },
         {
             name: "Viswas Vallabaneni",
             title: "Marketing Co-Captain",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Viswas has been with the team for two years now and loves creating new connections. In the future viswas plans to major in communications and sales.",
             imgSrc: "/studentImages/viswasValla.jpg"
         },
         {
             name: "Lakshmi Kandikonda",
             title: "Marketing Co-Capatain",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Lakshmi has been instrumental to our team's marketing success and in the future hopes to pursue a major in the stem field. In her free time she loves to hand out with her friends and bake.",
             imgSrc: "/studentImages/lakshmiKandikonda.jpg"
         },
         {

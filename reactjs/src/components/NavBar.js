@@ -190,9 +190,9 @@ export default function NavBar() {
 
                 {navBarViewOptions.map((title) => {
                   return (
-                    <h1 href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                       <Link to={`/${title.toLowerCase()}`}>{title}</Link>
-                    </h1>
+                    </a>
                   )
                 })}
               </div>

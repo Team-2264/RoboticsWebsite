@@ -48,7 +48,6 @@ const LatestNews = () => {
                         })}
                     </div>
                 </div>
-                {/* 2 SPOTS FOR NEWS */}
 
             </div>
         </div>
