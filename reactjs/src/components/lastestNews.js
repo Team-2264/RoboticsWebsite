@@ -4,21 +4,7 @@ import events from '../data/events';
 import newsData from '../data/newsData';
 import { Link } from 'react-router-dom';
 const LatestNews = () => {
-    // const newsData = [
-    //     {
-    //         title: "Trojan Robotics in Houston",
-    //         desc: "Read about our competition in Houston!",
-    //         date: "April 30, 2023",
-    //         srcOfImage: "/assets/images/teamHoustonPic.jpg"
-    //     },
-    //     {
-    //         title: "Iowa Regional",
-    //         desc: "Read about our Houston qualifying tournament",
-    //         date: "March 23, 2023",
-    //         srcOfImage: "/assets/images/trojanRoboticsIowa2023.jpg"
-    //     }
 
-    // ]
     return (
         <div >
             <br></br>

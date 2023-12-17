@@ -21,7 +21,7 @@ export default function Events() {
                             );
                         })
                     }
-                </div> */
+                </div>
 
                 <br></br>
                 <h1 className="font-bold text-2xl text-left pt:8">2024 Season Calender</h1>

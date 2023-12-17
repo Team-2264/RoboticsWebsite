@@ -13,7 +13,7 @@ import {
 import { Link } from 'react-router-dom'
 
 const products = [
-  { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon, route:"/aboutUs" },
+  { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon, route: "/aboutUs" },
   { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', route: "https://www.firstinspires.org/robotics/frc", icon: CursorArrowRaysIcon },
   { name: 'Captains and Members', description: 'Meet our captains and mentors', href: '#', icon: UserCircleIcon, route: "/students" },
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
@@ -82,23 +82,23 @@ export default function NavBar() {
 
 
                       {
-                      item.name === "FIRST" ? <a href={item.route}>
-                        <div className="flex-auto">
-                          <a href={item.route} key={item.name} className="block font-semibold text-gray-900">
-                            {item.name}
-                            <span className="absolute inset-0" />
-                          </a>
-                          <p className="mt-1 text-gray-600">{item.description}</p>
-                        </div>
-                      </a> : <Link to={item.route}>
-                        <div className="flex-auto">
-                          <a href={item.href} key={item.name} className="block font-semibold text-gray-900">
-                            {item.name}
-                            <span className="absolute inset-0" />
-                          </a>
-                          <p className="mt-1 text-gray-600">{item.description}</p>
-                        </div>
-                      </Link>
+                        item.name === "FIRST" ? <a href={item.route}>
+                          <div className="flex-auto">
+                            <a href={item.route} key={item.name} className="block font-semibold text-gray-900">
+                              {item.name}
+                              <span className="absolute inset-0" />
+                            </a>
+                            <p className="mt-1 text-gray-600">{item.description}</p>
+                          </div>
+                        </a> : <Link to={item.route}>
+                          <div className="flex-auto">
+                            <a href={item.href} key={item.name} className="block font-semibold text-gray-900">
+                              {item.name}
+                              <span className="absolute inset-0" />
+                            </a>
+                            <p className="mt-1 text-gray-600">{item.description}</p>
+                          </div>
+                        </Link>
                       }
 
                     </div>
@@ -190,12 +190,9 @@ export default function NavBar() {
 
                 {navBarViewOptions.map((title) => {
                   return (
-                    <a
-                      href="#"
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    >
-                      {title}
-                    </a>
+                    <h1 href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      <Link to={`/${title.toLowerCase()}`}>{title}</Link>
+                    </h1>
                   )
                 })}
               </div>
