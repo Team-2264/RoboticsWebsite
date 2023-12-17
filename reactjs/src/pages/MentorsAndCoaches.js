@@ -42,13 +42,13 @@ export default function MentorsAndCoaches() {
         {
             name: "Jenny Zeroni",
             title: "Marketing and Mechanical Mentor",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Jenny is a vice president at a medical device startup, and enjoys fabricating various different innovations. This is her fourth year with the team and is a key part in our marketing team's success.",
             imgSrc: "/mentorImages/jennyZeroni.jpg"
         },
         {
             name: "Mahima Nayak",
             title: "Outreach and Marketing Mentor",
-            desc: "Hi everyone, I am an IT professional working at Medtronic. This is my second year working with FIRST robotics. I enjoy working with creative individuals who think outside the box and learn throuh their experience.",
+            desc: "Mahima is an IT professional working at Medtronic. This is her second year working with FIRST robotics, and she enjoy working with creative individuals who think outside the box and learn throuh their experiences.",
             imgSrc: "/mentorImages/mahimaNayak.jpg"
         },
         {
@@ -60,7 +60,7 @@ export default function MentorsAndCoaches() {
         {
             name: "Dilshan Rajan",
             title: "Mechanical and Electrical Mentor",
-            desc: "Nira has been with trojan robotics for 3 years now and is now at the top of the food chain!",
+            desc: "Dilshan is a neuroscience student at the University of Minnesota Twin Cities. He was the former head captain of this team and enjoys building and working with heavy machinery.",
             imgSrc: "/mentorImages/dilshanRajan.jpg"
         },
 
