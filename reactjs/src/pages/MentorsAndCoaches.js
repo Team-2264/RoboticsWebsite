@@ -73,7 +73,7 @@ export default function MentorsAndCoaches() {
                 <div >
                     <h1 className="font-bold text-center text-3xl">Coaches and Mentors</h1>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 pt-8 gap-8 pb-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 pt-8 gap-8 pb-4 sm:justify-center">
 
                     {
                         mentors.map((info) => {
