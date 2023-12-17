@@ -66,10 +66,10 @@ export default function MentorsAndCoaches() {
 
     ]
     return (
-        <div className>
+        <div>
             <NavBar />
             <br></br>
-            <div>
+            <div className="max-w-6xl mx-auto">
                 <div >
                     <h1 className="font-bold text-center text-3xl">Coaches and Mentors</h1>
                 </div>

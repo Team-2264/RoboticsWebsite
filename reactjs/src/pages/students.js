@@ -61,10 +61,10 @@ export default function Students() {
 
     ]
     return (
-        <div className>
+        <div>
             <NavBar />
             <br></br>
-            <div>
+            <div className="max-w-6xl mx-auto">
                 <div >
                     <h1 className="font-bold text-center text-3xl">Trojan Robotics Team Members</h1>
                 </div>
