@@ -18,8 +18,8 @@ const LatestNews = () => {
                     <br></br>
                     <div>
                         <h1 className='text-2xl font-bold'>Upcoming Practices</h1>
-                        <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
-                        <Datebar month="Mar" date="7" name="Mechanical Team Practice" location="Wayzata High School" />
+                        <Datebar month="Dec" date="18" name="Mechanical Team Practice" location="Wayzata High School" />
+                        <Datebar month="Dec" date="20" name="Team Practice" location="Wayzata High School" />
                     </div>
                 </div>
                 <div className="col-span-2">

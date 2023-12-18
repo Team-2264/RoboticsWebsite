@@ -1,40 +1,58 @@
 const events = [
     {
+        name: "Week Zero",
+        month: "Feb",
+        date: "17",
+        location: "Bedford High School"
+    },
+    {
         name: "Lake Superior Regional",
-        month: "Mar",
-        date: "7",
+        month: "Feb",
+        date: "28",
         location: "Duluth MN"
     },
     {
         name: "Lake Superior Regional",
         month: "Mar",
-        date: "8",
+        date: "1",
         location: "Duluth MN"
     },
     {
         name: "Lake Superior Regional",
         month: "Mar",
-        date: "9",
+        date: "2",
         location: "Duluth MN"
     },
     {
-        name: "Lake Superior Regional",
-        month: "Mar",
-        date: "10",
-        location: "Duluth MN"
+        name: "World Competition (TBD)",
+        month: "Apr",
+        date: "20",
+        location: "Houston Texas"
     },
     {
-        name: "Lake Superior Regional",
-        month: "Mar",
-        date: "11",
-        location: "Duluth MN"
+        name: "World Competition (TBD)",
+        month: "Apr",
+        date: "21",
+        location: "Houston Texas"
     },
     {
-        name: "Lake Superior Regional",
-        month: "Mar",
-        date: "12",
-        location: "Duluth MN"
-    }
+        name: "World Competition (TBD)",
+        month: "Apr",
+        date: "22",
+        location: "Houston Texas"
+    },
+    {
+        name: "World Competition (TBD)",
+        month: "Apr",
+        date: "23",
+        location: "Houston Texas"
+    },
+    {
+        name: "World Competition (TBD)",
+        month: "Apr",
+        date: "24",
+        location: "Houston Texas"
+    },
 ]
 
 export default events;
