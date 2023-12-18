@@ -66,7 +66,7 @@ export default function Students() {
             <br></br>
             <div className="max-w-6xl mx-auto">
                 <div >
-                    <h1 className="font-bold text-center text-3xl">Trojan Robotics Team Members</h1>
+                    <h1 className="font-bold text-center text-3xl">Trojan Robotics Captains</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 pt-9 gap-8 pb-4">
 
@@ -85,6 +85,8 @@ export default function Students() {
                             )
                         })
                     }
+
+
                 </div>
             </div>
             <Footer />

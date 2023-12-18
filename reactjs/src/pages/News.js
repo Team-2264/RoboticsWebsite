@@ -28,7 +28,9 @@ export default function News() {
                                     <div className="p-5">
                                         <h2 className='font-bold text-xl'>{newsItem.title}</h2>
                                         <p className='text-sm text-gray-700 pt-1'>{newsItem.date}</p>
-                                        <p className='text-gray-700 pt-4'>{newsItem.article.slice(0, 60)}</p>
+                                        <p className='text-gray-700 pt-4'>{newsItem.article.slice(0, 60)}...</p>
+                                        {/* `/${title.toLocaleLowerCase()}` */}
+
                                     </div>
                                 </div>
                             </Link>
