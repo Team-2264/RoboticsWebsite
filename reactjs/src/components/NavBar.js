@@ -35,7 +35,7 @@ function classNames(...classes) {
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const navBarViewOptions = ["News", "Sponsors", "Events","Media", "Contact"]
+  const navBarViewOptions = ["News", "Sponsors", "Events", "Contact"]
   const trojanRoboticsLogoPath = "/assets/images/trojanRoboticsLogoandText.png"
   return (
     <header className="bg-white">
