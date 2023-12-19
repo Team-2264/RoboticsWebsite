@@ -1,6 +1,9 @@
 import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
+import ReactDOM from 'react-dom/client';
 import { Link } from "react-router-dom";
+
+
 import newsData from "../data/newsData";
 export default function News() {
 
