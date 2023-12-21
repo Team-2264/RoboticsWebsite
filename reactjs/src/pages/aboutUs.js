@@ -29,14 +29,14 @@ export default function AboutUs() {
         <div>
             <NavBar />
             <div className="bg-white pt-8">
-                <div className="mx-auto max-w-3xl px-6 lg:px-8">
+                <div className="mx-auto max-w-4xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:text-center">
                         <h2 className="text-base font-semibold leading-7 text-blue-800">About Trojan Robotics</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            Everything you need to know about our great team!
+                            Our team's mission is to provide an inclusive and life-changing platform, giving youg students the skills, and resilience needed for the future.
                         </p>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
-                            Ever since the founding of Trojan Robotics, the values of inclusion and diversity have been the foundation of our success.
+                            The Trojan Robotics (FRC Team 2264) is a Wayzata Public School ISD 284 robotics team from Plymouth, Minnesota.
                         </p>
                     </div>
                     <Stats />
