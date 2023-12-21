@@ -67,7 +67,7 @@ export default function MentorsAndCoaches() {
             name: "Dipesh Panchal",
             title: "Programming and Website Mentor",
             desc: "Dipesh has been mentoring with FIRST for four years and is now with us for robotics. Outside of robotics he loves spending time with his family and microcontrollers.",
-            imgSrc: "/mentorImages/dipeshPanchal.jpg"
+            imgSrc: "/mentorImages/dipeshPanchal.JPG"
         },
 
     ]
