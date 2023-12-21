@@ -63,6 +63,12 @@ export default function MentorsAndCoaches() {
             desc: "Dilshan is a neuroscience student at the University of Minnesota Twin Cities. He was the former head captain of this team and enjoys building and working with heavy machinery.",
             imgSrc: "/mentorImages/dilshanRajan.jpg"
         },
+        {
+            name: "Dipesh Panchal",
+            title: "Programming and Website Mentor",
+            desc: "",
+            imgSrc: "/mentorImages/dilshanRajan.jpg"
+        },
 
     ]
     return (
