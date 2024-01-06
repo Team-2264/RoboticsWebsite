@@ -1,9 +1,9 @@
 import React from "react"
-
+import sponsorsDict from "../data/sponsors";
 const SponsorsHomePage = () => {
 
     const sponsorInform = [
-        "/sponsorLogoes/homeDepotLogo.png",
+        "https://news.3m.com/image/Trifecta+3M+001+Logo+CMYK_thumb.jpg",
         "/sponsorLogoes/medtronicLogo.jpg",
         "/sponsorLogoes/philipsSponsorLogo.jpg",
         "/sponsorLogoes/turckLogo.png",
@@ -23,20 +23,20 @@ const SponsorsHomePage = () => {
             </div>
             <br></br>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-
-                {sponsorInform.map((sponsorInfo) => {
-                    return (
+                {
+                    sponsorsDict.map((sponsorInfo) => (
                         <div className="m-auto justify-center">
                             <img
-                                alt=""
                                 height="90"
                                 width="160"
                                 className="grayscale m-auto justify-center"
-                                src={sponsorInfo}
+                                alt={sponsorInfo.name}
+                                src={sponsorInfo.logoSource}
                             />
                         </div>
-                    )
-                })}
+                    ))
+                }
+
             </div >
         </div>
     );
