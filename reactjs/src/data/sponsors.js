@@ -1,9 +1,9 @@
 const sponsorsDict = [
     {
-        name: "Medtronic",
-        company_link: "https://www.medtronic.com/us-en/index.html",
+        name: "3M",
+        company_link: "https://www.3m.com/",
         logoSource: "https://news.3m.com/image/Trifecta+3M+001+Logo+CMYK_thumb.jpg",
-        desc: "Medtronic, a radiant force in healthcare innovation, marks its legacy of transforming lives through cutting-edge medical technologies, promising a sparkling future of health and well-being."
+        desc: "3M is famous for its diverse range of innovative products, particularly in adhesive technologies. The company's impact spans consumer goods, healthcare, and industrial sectors, contributing to advancements in science and technology."
     },
     {
         name: "Philips",
@@ -20,15 +20,15 @@ const sponsorsDict = [
 
     {
         name: "Gene Haas Foundation",
-        company_link: "https://novoengineering.com/",
+        company_link: "https://ghaasfoundation.org/content/ghf/en/home.html",
         logoSource: "https://www.haascnc.com/content/dam/haascnc/gene-haas-foundation/2021-logo-ghf/GHF_Logo_LightBackground.jpg/jcr:content/renditions/original.original/image.jpg",
-        desc: "The 4-H program teaches and trains both urban and rural kids in a variety of subjects. Our missions align to help youth and improve the world around them. They encourage Stryke Force students to develop their leadership and give back to the community."
+        desc: "The Gene Haas foundation is a major driver in promoting stem education through robotics and other engineering programs. They help finance teams all accross the world hoping to make students better at science and engineering."
     },
     {
         name: "Cargill",
-        company_link: "https://www.turck.us/en/",
+        company_link: "https://www.cargill.com/",
         logoSource: "https://www.cargill.com/image/1432080092113/cargill-color-logo.jpg",
-        desc: "Turck, a beacon of innovation in industrial automation, sparks inspiration with its advanced solutions. Cheers to a sparkling future filled with endless possibilities, guided by Turck's dedication to excellence in the realm of industrial technology."
+        desc: "Cargill is renowned for its prominent position as a major privately-owned corporation in the agriculture and food industries, specializing in the processing and trading of agricultural commodities. The company plays a crucial role in the global supply chain, impacting food production and animal nutrition."
     },
     {
         name: "Wayzata High School",
