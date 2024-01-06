@@ -8,7 +8,7 @@ const events = [
     {
         name: "Lake Superior Regional",
         month: "Feb",
-        date: "28",
+        date: "29",
         location: "Duluth MN"
     },
     {

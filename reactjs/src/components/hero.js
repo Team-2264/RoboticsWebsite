@@ -23,7 +23,7 @@ export default function Hero({ programName }) {
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
 
-                <h1 className='text-center text-5xl text-blue-700'>Trojan Robotics <span className='text-white'>2264</span></h1>
+                <h1 className='text-center text-5xl text-blue-400'>Trojan Robotics <span className='text-white'>2264</span></h1>
 
                 {/* <img
                   src={`/img/logos/${programName}-white.png`}
@@ -38,7 +38,7 @@ export default function Hero({ programName }) {
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                     <Link to="/events">
                       <h1
-                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-800 bg-white hover:bg-blue-50 sm:px-8"
+                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-400 bg-white hover:bg-blue-50 sm:px-8"
                       >
                         Get involved
                       </h1>
@@ -46,7 +46,7 @@ export default function Hero({ programName }) {
                     <Link to="/contact">
                       <h1
                         offset={26.9}
-                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-700 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
+                        className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-400 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                       >
                         Support the Team
                       </h1>
