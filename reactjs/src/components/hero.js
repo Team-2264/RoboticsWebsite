@@ -1,6 +1,6 @@
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Link } from 'react-router-dom'
+import pdf from "../documents/donate.pdf"
 export default function Hero({ programName }) {
   return (
     <div>
@@ -43,14 +43,14 @@ export default function Hero({ programName }) {
                         Get involved
                       </h1>
                     </Link>
-                    <Link to="/contact">
+                    <a href={pdf} target='_blank'>
                       <h1
                         offset={26.9}
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-400 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                       >
-                        Support the Team
+                        Donate
                       </h1>
-                    </Link>
+                    </a>
                   </div>
                 </div>
 
