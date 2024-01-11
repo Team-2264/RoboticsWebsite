@@ -31,11 +31,11 @@ export default function OutReach() {
                                     <h1 className="text-sm">{`By: ${blog.author}`}</h1>
                                     <h1 className="text-sm">{blog.date}</h1>
                                 </div>
-                                <div className="h-[300px] overflow-hidden rounded-lg shadow-xl">
+                                {/* <div className="h-[300px] overflow-hidden rounded-lg shadow-xl">
                                     <img
                                         src={blog.imgSrc}
                                     />
-                                </div>
+                                </div> */}
                                 <p className="pt-4 pl-1">{blog.blog}</p>
                                 <br></br>
                             </div>

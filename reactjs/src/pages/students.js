@@ -23,7 +23,7 @@ export default function Students() {
         },
         {
             name: "Avi Bandi",
-            title: "Outreach Co-Captain and Webmaster",
+            title: "Webmaster",
             desc: "Avi was instrumental in creating the new outreach subdivision and was instrumental in creating our new website. In his free time he loves to program and have fun with his friends.",
             imgSrc: "/studentImages/aviBandi.JPG"
         },
