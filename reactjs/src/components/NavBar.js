@@ -9,7 +9,8 @@ import {
   GlobeAltIcon,
   UserGroupIcon,
   ChevronDownIcon,
-  CameraIcon
+  CameraIcon,
+  UserIcon
 } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 
@@ -17,8 +18,10 @@ const products = [
   { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon, route: "/aboutUs" },
   { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', route: "https://www.firstinspires.org/robotics/frc", icon: CursorArrowRaysIcon },
   { name: 'Captains', description: 'Meet our captains', href: '#', icon: UserCircleIcon, route: "/students" },
-  { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors', href: '#', icon: UserGroupIcon, route: "/mentors" },
+  { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors.', href: '#', icon: UserGroupIcon, route: "/mentors" },
+  { name: 'Members ', description: 'Meet the rest of our fabulous robotics team.', href: '#', icon: UserIcon, route: "/members" },
   { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon, route: "/outreach" },
+  
 ]
 
 const media = [

@@ -10,6 +10,7 @@ import Sponsors from "./pages/Sponsors";
 import News from "./pages/News";
 import ArticlePage from "./components/articlePage";
 import AboutUs from "./pages/aboutUs";
+import Members from "./pages/Members";
 const App = () => {
 
 
@@ -29,6 +30,7 @@ const App = () => {
                     <Route path= "/news" element={<News />}></Route>
                     <Route path="/aboutUs" element={<AboutUs />}/>
                     <Route path="/article/:index" element={<ArticlePage />} />
+                    <Route path="/members" element={<Members />} />
                 </Routes>
             </BrowserRouter>
         </div>

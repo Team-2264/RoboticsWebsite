@@ -28,6 +28,12 @@ export default function Students() {
             imgSrc: "/studentImages/aviBandi.JPG"
         },
         {
+            name: "Evan Hsieh",
+            title: " Co-Webmaster",
+            desc: "Evan is a brilliant designer with expertise in website design. He played a pivotal role in assisting Avi in creating the new Trojan Robotics website. In addition to his design skills, Evan enjoys playing Valorant and competing in violin competitions.",
+            imgSrc: "/studentImages/evanHsieh.JPG"
+        },
+        {
             name: "Neev Zeroni",
             title: "Mechanical Co-Captain",
             desc: "Neev has been with the team for 4 years now and enjoys teaching people about mechanical engineering. Outside of school Neev is a big advocate for gun violence and loves to ski.",
