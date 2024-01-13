@@ -7,66 +7,79 @@ export default function Members() {
         {
             name: "Axel Johnson",
             title: "Sophomore",
+            desc: "Mechanical Team",
             imgSrc: "/studentImages/axelJohnson.jpg"
         },
         {
             name: "Evan Kropp",
             title: "Senior",
+            desc: "Mechanical Team",
             imgSrc: "/StudentImages/evanKropp.jpg"
         },
         {
             name: "Jake Deininger",
             title: "Senior",
+            desc: "Programming Team",
             imgSrc: "/studentImages/jakeDeininger.jpg"
         },
         {
             name: "Jennifer (Sieun) Sung",
             title: "Junior",
+            desc: "Programming Team",
             imgSrc: "/studentImages/jenniferSung.JPG"
         },
         {
             name: "Akshath Mahesh",
             title: "Sophomore",
+            desc: "Mechanical Team",
             imgSrc: "/studentImages/akshathMahesh.jpg"
         },
         {
             name: "Hayden Tretter",
             title: "Sophomore",
+            desc: "Mechanical Team",
             imgSrc: "/studentImages/haydenTretter.jpg"
         },
         {
             name: "Mohan Atkuri",
             title: "Sophomore",
+            desc: "Programming Team",
             imgSrc: "/studentImages/mohanAtkuri.jpg"
         },
         {
             name: "Naman Brahmbhatt",
             title: "Sophomore",
+            desc: "Mechanical Team",
             imgSrc: "/studentImages/namanBrahmbhatt.jpg"
         },
         {
             name: "Noah Erikson",
             title: "Sophomore",
+            desc: "Mechanical Team",
             imgSrc: "/studentImages/noahErikson.jpg"
         },
         {
             name: "Pughazhendhi (Pugar) Saravanan",
             title: "Sophomore",
+            desc: "Mechanical Team",
             imgSrc: "/studentImages/pugarSaravanan.jpg"
         },
         {
             name: "Ricky Sala",
             title: "Sophomore",
+            desc: "Programming Team",
             imgSrc: "/studentImages/rickySala.jpg"
         },
         {
             name: "Shubham Panchal",
             title: "Freshman",
+            desc: "Mechanical Team",
             imgSrc: "/studentImages/shubhamPanchal.jpg"
         },
         {
             name: "Sreya Divakauni",
             title: "Freshman",
+            desc: "Marketing Team",
             imgSrc: "/studentImages/sreyaDivakauni.jpg"
         },
         

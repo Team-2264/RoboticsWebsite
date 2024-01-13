@@ -2,14 +2,6 @@ import React from "react"
 import sponsorsDict from "../data/sponsors";
 const SponsorsHomePage = () => {
 
-    const sponsorInform = [
-        "https://news.3m.com/image/Trifecta+3M+001+Logo+CMYK_thumb.jpg",
-        "/sponsorLogoes/medtronicLogo.jpg",
-        "/sponsorLogoes/philipsSponsorLogo.jpg",
-        "/sponsorLogoes/turckLogo.png",
-        "/sponsorLogoes/novoEngineeringSponsorLogo.png",
-        "/sponsorLogoes/whsLogo.png"
-    ]
 
     return (
         <div className="">
