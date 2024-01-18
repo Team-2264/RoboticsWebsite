@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "git": "^0.1.5"
+    "git": "^0.1.5",
+    "react-photo-album": "^2.3.0"
   }
 }

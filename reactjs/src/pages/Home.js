@@ -13,12 +13,15 @@ export default function Home (){
         <div className="max-w-6xl mx-auto">
             <NavBar />
             <Hero />
+            
             <br></br>
-            <AlertMessage />
+            <AlertMessage />    
             <LatestNews />
             <br></br>
             <SponsorsHomePage />
+            
             <Footer />
+
             <br></br>
         </div>
     )
