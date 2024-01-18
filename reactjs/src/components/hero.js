@@ -11,7 +11,7 @@ export default function Hero({ programName }) {
           <div className="max-w-7xl mx-auto">
             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <img
-                  src="/assets/images/mainTeamPhoto.jpg"
+                  src="/assets/images/MainTeamPhoto.jpg"
                   alt={programName}
                 />
                               
