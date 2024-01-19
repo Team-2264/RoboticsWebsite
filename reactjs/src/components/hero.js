@@ -19,7 +19,7 @@ export default function Hero({ programName }) {
               
               <div className="relative px-4 py-16 m:px-6 bg-blue-900 sm:py-6 lg:px-8">
               
-                <h1 className='text-center text-5xl text-yellow-300 object-right '><b>Trojan Robotics</b><span className='text-yellow-300 object-right'>2264</span></h1>
+                <h1 className='text-center text-5xl text-yellow-300 object-right '><b>Trojan Robotics</b><span className='text-yellow-300 object-right'> 2264</span></h1>
 
                 {/* <img
                   src={`/img/logos/${programName}-white.png`}
@@ -27,7 +27,7 @@ export default function Hero({ programName }) {
                   className="w-48 mx-auto"
                 /> */}
                 <p className="mt-6 max-w-lg mx-auto text-center text-xl text-yellow-300 sm:max-w-3xl">
-                  Trojan Robotics FIRST Robotics Team 2264 is a community robotics team based in Plymouth, Minnesota
+                  Trojan Robotics (FIRST Robotics Team 2264) is a community robotics team based in Plymouth, Minnesota
                 </p>
 
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">

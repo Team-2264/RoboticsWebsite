@@ -14,7 +14,7 @@ export default function Members() {
             name: "Evan Kropp",
             title: "Senior",
             desc: "Mechanical Team",
-            imgSrc: "/StudentImages/evanKropp.jpg"
+            imgSrc: "/studentImages/evanKropp.jpg"
         },
         {
             name: "Jake Deininger",
