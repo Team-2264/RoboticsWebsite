@@ -7,6 +7,7 @@ import SponsorsHomePage from "../components/sponsorsHomePage";
 import AlertMessage from "../components/alertMessage";
 import Awards from "../components/awards";
 import UpcomingEvents from "../components/upcomingEvents";
+import Timeline from "../components/timeline";
 import "../App.css"
 
 
@@ -25,8 +26,10 @@ export default function Home (){
                 
                 <div class="col-span-1"><Awards /></div>
             </div>
+            <Timeline />
             <br></br>
-            {/* without avi bandi */}
+
+            
             <SponsorsHomePage />
             
             <Footer />
