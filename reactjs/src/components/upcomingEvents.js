@@ -14,12 +14,6 @@ const upcomingEvents = () => {
                         <p className='text-gray-700 pt-1'>Join us and cheer us on in person!</p>
                         <Datebar month={events[0].month} date={events[0].date} name={events[0].name} location={events[0].location} />
                     </div>
-                    <br></br>
-                    <div>
-                        <h1 className='text-2xl font-bold'>Upcoming Practices</h1>
-                        <Datebar month="Dec" date="18" name="Mechanical Team Practice" location="Wayzata High School" />
-                        <Datebar month="Dec" date="20" name="Team Practice" location="Wayzata High School" />
-                    </div>
                 </div>
                 
 

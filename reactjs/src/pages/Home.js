@@ -20,9 +20,8 @@ export default function Home (){
             <br></br>
             <AlertMessage />    
             <br></br>
-            <div className="grid grd-cols-1 sm:grid-cols-5 gap-4">
-                <div class="col-span-2"><UpcomingEvents/></div>
-                <div class="col-span-2"><LatestNews/></div>
+            <div className="grid grd-cols-1 sm:grid-cols-4 gap-4">
+                <div class="col-span-3"><UpcomingEvents/><LatestNews/></div>
                 
                 <div class="col-span-1"><Awards /></div>
             </div>
