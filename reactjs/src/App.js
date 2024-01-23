@@ -11,6 +11,7 @@ import News from "./pages/News";
 import ArticlePage from "./components/articlePage";
 import AboutUs from "./pages/aboutUs";
 import Members from "./pages/Members";
+import Donate from "./pages/donate"
 const App = () => {
 
 
@@ -31,6 +32,7 @@ const App = () => {
                     <Route path="/aboutUs" element={<AboutUs />}/>
                     <Route path="/article/:index" element={<ArticlePage />} />
                     <Route path="/members" element={<Members />} />
+                    <Route path="/donate" element={<Donate />} />
                 </Routes>
             </BrowserRouter>
         </div>

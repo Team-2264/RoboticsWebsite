@@ -39,14 +39,15 @@ export default function Hero({ programName }) {
                         Get involved
                       </h1>
                     </Link>
-                    <a href={pdf} target='_blank'>
+                    <Link to="/donate">
                       <h1
                         offset={26.9}
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-400 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                       >
                         Donate
                       </h1>
-                    </a>
+                    </Link>  
+                    
                   </div>
                 </div>
 
