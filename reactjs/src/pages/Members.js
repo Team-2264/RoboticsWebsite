@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/footer";
 
 export default function Members() {
-    const mentors = [
+    const members = [
         {
             name: "Axel Johnson",
             title: "Sophomore",
@@ -97,7 +97,7 @@ export default function Members() {
                 <div className="grid grid-cols-1 md:grid-cols-2 pt-8 gap-8 pb-4">
 
                     {
-                        mentors.map((info) => {
+                        members.map((info) => {
                             return (
                                 <div className="grid grid-cols-1 md:grid-cols-3">
                                     <img className="rounded-lg h-[185px] w-[185px] aspect-square" src={info.imgSrc} />

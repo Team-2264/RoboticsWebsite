@@ -21,7 +21,7 @@ const products = [
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors.', href: '#', icon: UserGroupIcon, route: "/mentors" },
   { name: 'Members ', description: 'Meet the rest of our fabulous robotics team.', href: '#', icon: UserIcon, route: "/members" },
   { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon, route: "/outreach" },
-  
+  { name: 'Newsletter', description: 'Read our monthly newletter:', href: '#', icon: UserIcon, route: "/newsletter" },
 ]
 
 const media = [
