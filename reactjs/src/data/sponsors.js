@@ -46,6 +46,11 @@ const sponsorsDict = [
         logoSource: "https://www.firstinspires.org/sites/default/files/open-graph-first-logo.png",
     },
     {
+        name: "Novo Engineering",
+        company_link: "https://novoengineering.com/",
+        logoSource: "https://www.dexigner.com/images/directory/xi/29728.jpg",
+    },
+    {
         name: "Friends and Family",
         logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
     },

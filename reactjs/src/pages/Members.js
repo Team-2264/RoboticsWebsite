@@ -5,12 +5,6 @@ import Footer from "../components/footer";
 export default function Members() {
     const members = [
         {
-            name: "Axel Johnson",
-            title: "Sophomore",
-            desc: "Mechanical Team",
-            imgSrc: "/studentImages/axelJohnson.jpg"
-        },
-        {
             name: "Evan Kropp",
             title: "Senior",
             desc: "Mechanical Team",
@@ -21,6 +15,12 @@ export default function Members() {
             title: "Senior",
             desc: "Programming Team",
             imgSrc: "/studentImages/jakeDeininger.jpg"
+        },
+        {
+            name: "Axel Johnson",
+            title: "Sophomore",
+            desc: "Mechanical Team",
+            imgSrc: "/studentImages/axelJohnson.jpg"
         },
         {
             name: "Jennifer (Sieun) Sung",
