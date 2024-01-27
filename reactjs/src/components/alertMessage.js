@@ -1,51 +1,27 @@
+import React, { useState } from 'react';
+import pdf from "../documents/chipotleFundraiser.pdf";
 
-import React from 'react'
-import pdf from "../documents/chipotleFundraiser.pdf"
-const alertMessage = () => {
+const AlertMessage = () => {
+  const [show, setShow] = useState(true);
+
+  const handleClose = () => {
+    setShow(false);
+  };
+
   return (
-    <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-yellow-300 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
-      <div
-        className="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
-        aria-hidden="true"
-      >
-        <div
-          className="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
-          style={{
-            clipPath:
-              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',
-          }}
-        />
+    show && (
+      <div onClick={handleClose} className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center">
+        <div className="bg-white rounded w-96">
+          <button type="button" onClick={handleClose} className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal">
+            <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+              <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+            </svg>  
+          </button>
+          <img src="/assets/images/chipotle.png" alt="Chipotle Logo" />
+        </div>
       </div>
-      <div
-        className="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
-        aria-hidden="true"
-      >
-        <div
-          className="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
-          style={{
-            clipPath:
-              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',
-          }}
-        />
-      </div>
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-        <p className="text-sm leading-6 text-gray-900">
-          <strong className="font-semibold">Chipotle Fundraising</strong>
-          <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
-            <circle cx={1} cy={1} r={1} />
-          </svg>
-          Come to Plymouth Chipotle to support the Trojan Robotics Team on February 21!  
-        </p>
-        <a
-          href={pdf} target='_blank'
-          className="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
-        >
-          Details <span aria-hidden="true">&rarr;</span>
-        </a>
-      </div>
-      <div className="flex flex-1 justify-end">
-      </div>
-    </div>
-  )
-}
-export default alertMessage;
+    )
+  );
+};
+
+export default AlertMessage;

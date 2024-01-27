@@ -15,10 +15,12 @@ export default function Home (){
     return (
         <div className="max-w-6xl mx-auto">
             <NavBar />
+        
             <Hero />
+            <AlertMessage/>
             
             <br></br>
-            <AlertMessage />    
+           
             <br></br>
             <div className="grid grd-cols-1 sm:grid-cols-4 gap-4">
                 <div class="col-span-3"><UpcomingEvents/><LatestNews/></div>
