@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import pdf from "../documents/chipotleFundraiser.pdf";
 
 const AlertMessage = () => {
   const [show, setShow] = useState(true);
@@ -9,6 +8,7 @@ const AlertMessage = () => {
   };
 
   return (
+    
     show && (
       <div onClick={handleClose} className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center">
         <div className="bg-white rounded w-96">
