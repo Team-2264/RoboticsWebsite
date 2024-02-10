@@ -31,14 +31,14 @@ export default function Home (){
             </div>
             <YouTubeEmbed />
             <br></br>
-            <Timeline />
+            <Timeline    />
 
             
             <Footer />
 
             
 
-            <br></br>
+            <br></br> 
         </div>
     )
 }

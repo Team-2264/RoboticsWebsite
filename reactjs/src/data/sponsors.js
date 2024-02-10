@@ -51,6 +51,11 @@ const sponsorsDict = [
         logoSource: "https://www.dexigner.com/images/directory/xi/29728.jpg",
     },
     {
+        name: "Cambria",
+        company_link: "https://www.cambriausa.com/",
+        logoSource: "https://www.qualitygranitenh.com/wp-content/uploads/2017/03/cambria-logo.png",
+    },
+    {
         name: "Friends and Family",
         logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
     },
