@@ -7,7 +7,7 @@ export default function Newsletter() {
         <div>
             <NavBar />
         
-                 <embed width='100%' height='1150' src="/assets/images/JanuaryNewsletter2024.pdf"></embed>           <Footer />
+                 <embed width='100%' height='1150' src="/assets/images/FebruaryNewsletter2024.pdf"></embed>           <Footer />
         </div>
     )
 }
