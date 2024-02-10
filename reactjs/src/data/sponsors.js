@@ -33,7 +33,7 @@ const sponsorsDict = [
     {
         name: "Medtronic",
         company_link: "https://www.medtronic.com/us-en/index.html",
-        logoSource: "https://companyurlfinder.com/marketing/assets/img/logos/medtronic.com.png",
+        logoSource: "https://1000logos.net/wp-content/uploads/2021/09/Medtronic-Logo.png",
     },
     {
         name: "United Healthcare",
