@@ -10,12 +10,6 @@ const sponsorsDict = [
         logoSource: "https://seeklogo.com/images/P/philips-logo-958ECE926C-seeklogo.com.png",
     },
     {
-        name: "Home Depot",
-        company_link: "https://corporate.homedepot.com/",
-        logoSource: "https://corporate.homedepot.com/sites/default/files/image_gallery/THD_logo.jpg",
-    },
-
-    {
         name: "Gene Haas Foundation",
         company_link: "https://ghaasfoundation.org/content/ghf/en/home.html",
         logoSource: "https://www.haascnc.com/content/dam/haascnc/gene-haas-foundation/2021-logo-ghf/GHF_Logo_LightBackground.jpg/jcr:content/renditions/original.original/image.jpg",
