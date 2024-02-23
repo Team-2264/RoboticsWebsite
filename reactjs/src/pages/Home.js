@@ -18,7 +18,8 @@ export default function Home (){
             <NavBar />
         
             <Hero />
-            <AlertMessage/>
+            {/* Use the following only if you want to have a pop up */}
+            {/* <AlertMessage/> */}
             
 
             <br></br>
