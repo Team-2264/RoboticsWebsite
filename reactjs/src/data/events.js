@@ -1,11 +1,5 @@
 const events = [
     {
-        name: "Week Zero",
-        month: "Feb",
-        date: "17",
-        location: "Bedford High School"
-    },
-    {
         name: "Lake Superior Regional",
         month: "Feb",
         date: "29",
