@@ -36,7 +36,7 @@ export default function Students() {
         {
             name: "Neev Zeroni",
             title: "Mechanical Co-Captain",
-            desc: "Neev has been with the team for 4 years now and enjoys teaching people about mechanical engineering. Outside of school Neev is a big advocate for gun violence and loves to ski.",
+            desc: "Neev has been with the team for 4 years now and enjoys teaching people about mechanical engineering. Outside of school Neev is a big advocate against gun violence and loves to ski.",
             imgSrc: "/studentImages/neevZeroni.jpg"
         },
         {
