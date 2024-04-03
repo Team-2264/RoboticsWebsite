@@ -30,7 +30,7 @@ export default function Home (){
                 
                 <div class="col-span-1"><Awards /></div>
             </div>
-            <YouTubeEmbed />
+            
             <br></br>
             <Timeline    />
 
