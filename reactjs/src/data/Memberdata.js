@@ -8,7 +8,7 @@ const Memberdata = [
     {
         name: "Jake Deininger",
         title: "Senior, Programming Team",
-        desc: "Jake enjoys creating things with computers and plans on majoring in computer engineering....",
+        desc: "Jake enjoys creating things with computers and plans on majoring in computer engineering..",
         imgSrc: "/studentImages/jakeDeininger.jpg"
     },
     {
