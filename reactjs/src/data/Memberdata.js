@@ -1,22 +1,16 @@
 const Memberdata = [
-    {
-        name: "Evan Kropp",
-        title: "Senior, Mechanical Team",
-        desc: "Evan does occasional programming projects and his favorite subject is math. He is majoring in computer science next year.",
-        imgSrc: "/studentImages/evanKropp.jpg"
-    },
-    {
-        name: "Jake Deininger",
-        title: "Senior, Programming Team",
-        desc: "Jake enjoys creating things with computers and plans on majoring in computer engineering..",
-        imgSrc: "/studentImages/jakeDeininger.jpg"
-    },
-    {
-        name: "Jennifer (Sieun) Sung",
-        title: "Junior, Programming Team",
-        desc: "Jennifer loves to inspire and encourage people to join STEM.",
-        imgSrc: "/studentImages/jenniferSung.JPG"
-    },
+    // {
+    //     name: "Evan Kropp",
+    //     title: "Senior, Mechanical Team",
+    //     desc: "Evan does occasional programming projects and his favorite subject is math. He is majoring in computer science next year.",
+    //     imgSrc: "/studentImages/evanKropp.jpg"
+    // },
+    // {
+    //     name: "Jake Deininger",
+    //     title: "Senior, Programming Team",
+    //     desc: "Jake enjoys creating things with computers and plans on majoring in computer engineering..",
+    //     imgSrc: "/studentImages/jakeDeininger.jpg"
+    // },    
     {
         name: "Axel Johnson",
         title: "Sophomore, Mechanical Team",
