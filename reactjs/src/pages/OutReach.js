@@ -3,6 +3,13 @@ import NavBar from "../components/NavBar"
 export default function OutReach() {
     const outReachSource = [
         {
+            blogName: "Wayzata Homecoming Block Party",
+            author: "Dhriti Edpuganti",
+            date: "9/20/24",
+            blog: "In the block party, we showcased our robot and we showed school pride.",
+            imgSrc: "/mentorImages/headCoach.jpg"
+        },
+        {
             blogName: "Oakwood Elementary Science Fair",
             author: "Lakshmi Kandikonda",
             date: "2/27/24",
