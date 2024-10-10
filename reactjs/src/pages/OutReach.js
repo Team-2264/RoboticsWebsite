@@ -3,10 +3,17 @@ import NavBar from "../components/NavBar"
 export default function OutReach() {
     const outReachSource = [
         {
+            blogName: "Wayzata Highschool Football Games",
+            author: "Yoojin Nam",
+            date: "9/12/24, 9/20/24, 10/10/24",
+            blog: "Our team further connects with our school's student body by participating in football games and shooting T-shirts to the student section! The interactions with the crowd not only strengthen our bond with the community, but gives us energy we need for our team spirit.",
+            imgSrc: "/mentorImages/headCoach.jpg"
+        },
+        {
             blogName: "Wayzata Homecoming Block Party",
             author: "Dhriti Edpuganti",
             date: "9/20/24",
-            blog: "In the block party, we showcased our robot and we showed school pride.",
+            blog: "In the block party, we showcased our robot and we showed school pride by coming and cheering on our school!",
             imgSrc: "/mentorImages/headCoach.jpg"
         },
         {
