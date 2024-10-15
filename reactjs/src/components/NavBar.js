@@ -14,6 +14,7 @@ import {
   NewspaperIcon
 } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import YearSelection from './yearSelection'
 
 const products = [
   { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon, route: "/aboutUs" },
@@ -182,8 +183,8 @@ export default function NavBar() {
           }
 
         </Popover.Group>
-
-
+        
+       
 
 
 
@@ -208,6 +209,9 @@ export default function NavBar() {
 
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        </div>
+        <div className="flex lg:flex-1">
+          <YearSelection/>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
