@@ -1,33 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 
 const YearSelection = () => {
+    const [data, setData] = useState("2024"); // Default value for the year
+    const [searchParams, setSearchParams] = useSearchParams();
 
-    const [data, setData] = useState(undefined);
+    // Set the year from the query parameter when the component mounts
+    useEffect(() => {
+        const yearFromQuery = searchParams.get("year");
+        if (yearFromQuery) {
+            setData(yearFromQuery);
+        }
+    }, [searchParams]);
 
-    
     const onOptionChangeHandler = (event) => {
-        setData(event.target.value);
-        console.log(
-            "User Selected Value - ",
-            event.target.value
-        );
+        const selectedYear = event.target.value;
+        setData(selectedYear);
+        console.log("User Selected Value - ", selectedYear);
+
+        // Update the URL without reloading
+        setSearchParams({ year: selectedYear });
     };
+
     return (
         <center>
-            <select onChange={onOptionChangeHandler}>
-             <option key={1}>  2024 </option>
-             <option key={2}>  2025 </option>
+            <select value={data} onChange={onOptionChangeHandler}>
+                <option value="2024">2024-2025</option>
+                <option value="2023">2023-2024</option>
+                <option value="2022">2022-2023</option>
+                <option value="2021">2021-2022</option>
             </select>
         </center>
     );
 };
 
-/*   {options.map((option, index) => {
-                    return (
-                        <option key={index}>
-                            {option}
-                        </option>
-                    );
-                })} */
 export default YearSelection;
-
