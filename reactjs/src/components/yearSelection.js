@@ -16,7 +16,7 @@ const YearSelection = () => {
     const onOptionChangeHandler = (event) => {
         const selectedYear = event.target.value;
         setData(selectedYear);
-        console.log("User Selected Value - ", selectedYear);
+        
 
         // Update the URL without reloading
         setSearchParams({ year: selectedYear });
