@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 
-const YearSelection = () => {
-    const [data, setData] = useState("2024"); // Default value for the year
+const YearSelection = ({ startingYear = 2021 }) => {
+    const [data, setData] = useState(new Date().getFullYear().toString()); // Default to current year
     const [searchParams, setSearchParams] = useSearchParams();
 
     // Set the year from the query parameter when the component mounts
@@ -16,19 +16,29 @@ const YearSelection = () => {
     const onOptionChangeHandler = (event) => {
         const selectedYear = event.target.value;
         setData(selectedYear);
-        
 
         // Update the URL without reloading
         setSearchParams({ year: selectedYear });
     };
 
+    // Generate the list of years dynamically from the starting year to the current year
+    const generateYearOptions = () => {
+        const currentYear = new Date().getFullYear();
+        const years = [];
+        for (let year = currentYear; year >= startingYear; year--) {
+            years.push(
+                <option key={year} value={year}>
+                    {year}-{year + 1}
+                </option>
+            );
+        }
+        return years;
+    };
+
     return (
         <center>
             <select value={data} onChange={onOptionChangeHandler}>
-                <option value="2024">2024-2025</option>
-                <option value="2023">2023-2024</option>
-                <option value="2022">2022-2023</option>
-                <option value="2021">2021-2022</option>
+                {generateYearOptions()}
             </select>
         </center>
     );
