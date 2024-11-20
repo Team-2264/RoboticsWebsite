@@ -2,7 +2,12 @@ import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
 import sponsorsDict from "../data/sponsors";
 export default function Sponsors() {
-
+let windowUrl = window.location.search;
+const params = new URLSearchParams(windowUrl);
+let year=params.get("year");
+if (year==null){
+    year=new Date().getFullYear();
+}
     return (
         <div>
             <NavBar />

@@ -2,12 +2,14 @@ import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
 import ReactDOM from 'react-dom/client';
 import { Link } from "react-router-dom";
-
-
 import newsData from "../data/newsData";
 export default function News() {
-
-
+let windowUrl = window.location.search;
+const params = new URLSearchParams(windowUrl);
+let year=params.get("year");
+if (year==null){
+    year=new Date().getFullYear();
+}
     return (
         <div>
             <NavBar />
