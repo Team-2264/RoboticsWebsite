@@ -6,7 +6,7 @@ const Datebar = ({name, month, date, location}) => {
         <div>
             <ul className='mt-4 grid grid-cols-1 gap-5 sm:gap-6' role='list'>
                 <li className="col-span-1 flex rounded-md shadow-sm">
-                    <div className='flex w-16 flex-col items-center justify-center bg-yellow-400 rounded-l-md fond-medium text-black'>
+                    <div className='flex w-24 flex-col items-center justify-center bg-yellow-400 rounded-l-md fond-medium text-black'>
                         <div className='font-semibold'>{month}</div>
                         <div className='font-semibold'>{date}</div>
                     </div>

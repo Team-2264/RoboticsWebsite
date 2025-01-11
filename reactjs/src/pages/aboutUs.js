@@ -31,7 +31,7 @@ export default function AboutUs() {
             <div className="bg-white pt-8">
                 <div className="mx-auto max-w-4xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:text-center">
-                        <h2 className="text-base font-semibold leading-7 text-blue-800">About Trojan Robotics</h2>
+                        <h2 className="text-base font-semibold leading-7 text-trojan-blue">About Trojan Robotics</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             Our team's mission is to provide an inclusive and life-changing platform and give young students the skills and resilience needed for the future.
                         </p>

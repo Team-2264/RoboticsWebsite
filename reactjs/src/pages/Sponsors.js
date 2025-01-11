@@ -31,7 +31,7 @@ if (year==null){
                                                 src={eachSponsor.logoSource}
                                             />
                                         </a>
-                                        {/* <h3 className="text-blue-800 font-bold text-lg text-center">Medtronic</h3> */}
+                                        {/* <h3 className="text-trojan-blue font-bold text-lg text-center">Medtronic</h3> */}
                                         <p className="text-gray-700 text-center text-xs pt-2">{eachSponsor.desc}</p>
                                     </div>
                                 );

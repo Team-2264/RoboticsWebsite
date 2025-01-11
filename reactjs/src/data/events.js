@@ -1,12 +1,10 @@
 const events = [
-
     {
-        name: "MNHSL State Competition",
-        month: "May",
-        date: "4",
-        location: "University of Minnesota"
+        name: "10,000 Lakes Regional",
+        month: "March",
+        date: "26-29",
+        location: "MN State Fairgrounds"
     },
-
 ]
 
 export default events;

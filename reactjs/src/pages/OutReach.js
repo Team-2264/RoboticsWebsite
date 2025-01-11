@@ -18,7 +18,7 @@ if (year==null){
                     OutReachData.filter(p => {return p.year==year}).map((blog) => {
                         return (
                             <div className="max-w-lg mx-auto">
-                                <h1 className="text-center font-bold text-xl text-blue-800">{blog.blogName}</h1>
+                                <h1 className="text-center font-bold text-xl text-trojan-blue">{blog.blogName}</h1>
                                 <div className=" pb-4  py-12 px-4 md:flex md:items-center md:justify-between lg:px-8">
                                     <h1 className="text-sm">{`By: ${blog.author}`}</h1>
                                     <h1 className="text-sm">{blog.date}</h1>
