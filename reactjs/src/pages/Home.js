@@ -19,7 +19,7 @@ export default function Home (){
         
             <Hero />
             {/* Use the following only if you want to have a pop up */}
-            {/* <AlertMessage/> */}
+            <AlertMessage/> 
             
 
             <br></br>
