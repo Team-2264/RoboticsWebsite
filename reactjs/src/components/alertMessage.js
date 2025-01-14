@@ -17,7 +17,7 @@ const AlertMessage = () => {
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
             </svg>  
           </button>
-          <img src="/assets/images/kevinphoto.jpg" alt="Kevin Photo" />
+          <img src="/assets/images/kevinupdated.jpg" alt="Kevin Updated" />
         </div>
       </div>
     )

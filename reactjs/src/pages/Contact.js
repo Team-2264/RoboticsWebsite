@@ -72,7 +72,7 @@ export default function Contact() {
                                 />
                             </div>
                         </div>
-                        <button type="submit" className="bg-blue-800 text-white px-2 py-1 rounded-lg shadow-xl w-1/4">
+                        <button type="submit" className="bg-blue-900 text-white px-2 py-1 rounded-lg shadow-xl w-1/4">
                             Submit
                         </button>
                     </form>
