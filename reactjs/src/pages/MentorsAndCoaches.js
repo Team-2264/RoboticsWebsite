@@ -16,12 +16,12 @@ export default function MentorsAndCoaches() {
             desc: "Satish is a project manager at Medtronic and enjoys helping make improvements to streamline this team. He was a pivotal driver in raising funds last year, allowing the team to attend Houston.",
             imgSrc: "/mentorImages/assistantCoach.jpg"
         },
-        {
-            name: "Robyn Bjella",
-            title: "Assistant Coach",
-            desc: "This is the third year Robyn has been with the team and is a pivotal driver in this team's outreach. In her spare time Robyn loves to volunteer for the school district and design buildings.",
-            imgSrc: "/mentorImages/assistantCoachTwo.jpg"
-        },
+        // {
+        //     name: "Robyn Bjella",
+        //     title: "Assistant Coach",
+        //     desc: "This is the third year Robyn has been with the team and is a pivotal driver in this team's outreach. In her spare time Robyn loves to volunteer for the school district and design buildings.",
+        //     imgSrc: "/mentorImages/assistantCoachTwo.jpg"
+        // },
         {
             name: "Rob Simon",
             title: "Software and Mechanical Mentor",
@@ -54,7 +54,7 @@ export default function MentorsAndCoaches() {
         },
         {
             name: "Arul Rajan",
-            title: "Mechanical Mentor",
+            title: "Assistant Coach",
             desc: "Arun has been with Trojan Robotics for 5 years now. He is a mechanical engineer and enjoys building and fabricating. In his spare time he enjoys spending time with his two boys outside! ",
             imgSrc: "/mentorImages/arulRajan.jpg"
         },
