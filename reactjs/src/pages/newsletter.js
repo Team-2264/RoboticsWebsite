@@ -20,7 +20,7 @@ if (year==null){
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5 pt-6">
                     {newsLetterData.filter(p => {return p.year==year}).map((newsLetterItem, index) => {
                         return (
-                            <Link to={newsLetterItem.srcOfNewsLetter}>
+                            <Link to={newsLetterItem.srcOfNewsLetter} target="_blank">
                                 <div className='shadow-2xl rounded-lg h-full'>
                                     <img
                                         className="w-full h-45 object-cover rounded-t-lg"
