@@ -15,8 +15,8 @@ if (year==null){
             <NavBar />
             <br></br>
             <div className="max-w-2xl mx-auto">
-                <h1 className="text-2xl font-bold">Trojan Robotics News</h1>
-                <p className="text-gray-700 pt-2">All the latest Trojan Robotics news straight form the team!</p>
+                <h1 className="text-2xl font-bold">Trojan Robotics Blogs</h1>
+                <p className="text-gray-700 pt-2">All the latest Trojan Robotics Blogs straight form the team!</p>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5 pt-6">
                     {newsData.map((newsItem, index) => {
                         return (
@@ -43,7 +43,5 @@ if (year==null){
             <br></br>
             <Footer />
         </div>
-
     )
 }
-
