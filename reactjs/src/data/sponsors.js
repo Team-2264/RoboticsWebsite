@@ -63,23 +63,40 @@ const sponsorsDict = [
         name: "Friends and Family",
         logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
         year: "2023"
+    },    {
+        name: "3M",
+        company_link: "https://www.3m.com/",
+        logoSource: "https://news.3m.com/image/Trifecta+3M+001+Logo+CMYK_thumb.jpg",
+        year: "2025"
+    },
+    {
+        name: "Philips",
+        company_link: "https://www.philips.com/global",
+        logoSource: "https://seeklogo.com/images/P/philips-logo-958ECE926C-seeklogo.com.png",
+        year: "2025"
+    },
+    {
+        name: "Gene Haas Foundation",
+        company_link: "https://ghaasfoundation.org/content/ghf/en/home.html",
+        logoSource: "https://www.haascnc.com/content/dam/haascnc/gene-haas-foundation/2021-logo-ghf/GHF_Logo_LightBackground.jpg/jcr:content/renditions/original.original/image.jpg",
+        year: "2025"
     },
     {
         name: "Medtronic",
         company_link: "https://www.medtronic.com/us-en/index.html",
         logoSource: "https://1000logos.net/wp-content/uploads/2021/09/Medtronic-Logo.png",
-        year: "2024"
+        year: "2025"
     },
     {
         name: "Wayzata High School",
         company_link: "https://www.wayzataschools.org/whs",
         logoSource: "https://www.mshsl.org/sites/default/files/styles/large/public/logos/2021-09/trojan_head_blue_gold.png?itok=duFUwVHz",
-        year: "2024"
+        year: "2025"
     },
     {
         name: "Friends and Family",
         logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
-        year: "2024"
+        year: "2025"
     },
     
 ]

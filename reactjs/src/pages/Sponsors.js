@@ -19,7 +19,7 @@ if (year==null){
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-6 gap-6">
                         {
-                            sponsorsDict.map((eachSponsor) => {
+                            sponsorsDict.filter(p => {return p.year==year}).map((eachSponsor) => {
                                 return (
                                     <div className="">
                                         <a target="_target" href={eachSponsor.company_link}>
@@ -36,18 +36,10 @@ if (year==null){
                                     </div>
                                 );
                             })
-
                         }
-
-
-
-
-
                     </div>
-
                 </div>
             </div>
-
             <Footer />
         </div>
     )
