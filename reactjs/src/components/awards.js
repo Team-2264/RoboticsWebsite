@@ -3,7 +3,7 @@ const awards = () => {
     return (
 <div>
     <img
-        src="/assets/images/2264awards.png"
+        src="/assets/images/UpdatedAwards.jpg"
         width='600'
         
         />
