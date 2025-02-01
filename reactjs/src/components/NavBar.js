@@ -14,10 +14,16 @@ import {
   NewspaperIcon
 } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import ImageDataDict from "../data/ImageData";
+
+const uniqueValue = ImageDataDict.filter((value, index, self) =>
+  index === self.findIndex((t) => (
+      t.year === value.year && t.path === value.path
+  )))
 
 const products = [
   { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon, route: "/aboutUs" },
-  { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: '#', route: "https://www.firstinspires.org/robotics/frc", icon: CursorArrowRaysIcon },
+  { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: 'https://www.firstinspires.org/robotics/frc', route: "https://www.firstinspires.org/robotics/frc", icon: CursorArrowRaysIcon },
   // { name: 'Captains', description: 'Meet our captains', href: '#', icon: UserCircleIcon, route: "/students" },
   // { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors.', href: '#', icon: UserGroupIcon, route: "/mentors" },
   // { name: 'Members ', description: 'Meet the rest of our fabulous robotics team.', href: '#', icon: UserIcon, route: "/members" },
@@ -25,7 +31,8 @@ const products = [
 ]
 
 const media = [
-  { name: '2024 Season Images', description: 'Check out our 2024 highlights.', href: '#', icon: CameraIcon, route: "https://photos.app.goo.gl/CWR2trNiPMmJxbWy5" },
+  // { name: '2024 Season Images New', description: 'Check out our 2024 highlights.', href: '#', icon: CameraIcon, route: "/imagegallery" },
+  // { name: '2024 Season Images', description: 'Check out our 2024 highlights.', href: '#', icon: CameraIcon, route: "https://photos.app.goo.gl/CWR2trNiPMmJxbWy5" },
   { name: 'Newsletter', description: 'Read our monthly newletter:', href: '#', icon: NewspaperIcon, route: "/newsletter" },
   { name: 'Team Blog', description: '', href: '#', icon: NewspaperIcon, route: "/news" },
 ]
@@ -78,7 +85,6 @@ export default function NavBar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
@@ -89,9 +95,6 @@ export default function NavBar() {
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
-
-
-
                       {
                         item.name === "FIRST" ? <a href={item.route}>
                           <div className="flex-auto">
@@ -127,7 +130,6 @@ export default function NavBar() {
               News Room
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
-
             <Transition
               as={Fragment}
               enter="transition ease-out duration-200"
@@ -137,9 +139,28 @@ export default function NavBar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
+                  {uniqueValue.map((item) => (
+                    <div
+                      key={item.name}
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                    >
+                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                        <CameraIcon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                      </div>
+                      <a href={`imagegallery?year=${item.year}&event=${item.path}`} target='_blank'>
+                        <div className="flex-auto">
+                          <a href={`imagegallery?year=${item.year}&event=${item.path}`} key={item.name} className="block font-semibold text-gray-900">
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">{item.name}</p>
+                        </div>
+                      </a>
+
+                    </div>
+                  ))}
                   {media.map((item) => (
                     <div
                       key={item.name}
@@ -148,8 +169,6 @@ export default function NavBar() {
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
-
-
                       <a href={item.route} target='_blank'>
                         <div className="flex-auto">
                           <a href={item.route} key={item.name} className="block font-semibold text-gray-900">
@@ -168,10 +187,6 @@ export default function NavBar() {
               </Popover.Panel>
             </Transition>
           </Popover>
-
-
-
-
           {
             navBarViewOptions.map((title) => {
               return (
@@ -183,31 +198,6 @@ export default function NavBar() {
           }
 
         </Popover.Group>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         </div>
       </nav>
@@ -263,7 +253,6 @@ export default function NavBar() {
                     </>
                   )}
                 </Disclosure>
-
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
