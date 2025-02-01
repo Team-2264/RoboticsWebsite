@@ -12,7 +12,7 @@ export default function Events() {
                 <br></br>
                 <h1 className="font-bold text-2xl text-left pt:8">2024 Season Events</h1>
                 <h2 className="pt-2 text-gray-700">Join us in person or stream the event online and cheer us on!</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-x-4">
 
                     {
                         events.map((event) => {
