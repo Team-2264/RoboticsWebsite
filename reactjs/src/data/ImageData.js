@@ -63,21 +63,21 @@ const ImageDataDict = [
         name: "2024 FLL Team Present"
     },
     {
-        image_src: "d1.PNG",
+        image_src: "d1.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d2.PNG",
+        image_src: "d2.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d3.PNG",
+        image_src: "d3.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
@@ -98,35 +98,35 @@ const ImageDataDict = [
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d6.PNG",
+        image_src: "d6.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d7.PNG",
+        image_src: "d7.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d8.PNG",
+        image_src: "d8.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d9.PNG",
+        image_src: "d9.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d10.PNG",
+        image_src: "d10.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
@@ -134,28 +134,28 @@ const ImageDataDict = [
     },
 
     {
-        image_src: "d12.PNG",
+        image_src: "d12.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d13.PNG",
+        image_src: "d13.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d14.PNG",
+        image_src: "d14.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d15.PNG",
+        image_src: "d15.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
