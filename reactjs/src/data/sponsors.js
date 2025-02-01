@@ -69,12 +69,7 @@ const sponsorsDict = [
         logoSource: "https://news.3m.com/image/Trifecta+3M+001+Logo+CMYK_thumb.jpg",
         year: "2025"
     },
-    {
-        name: "Philips",
-        company_link: "https://www.philips.com/global",
-        logoSource: "https://seeklogo.com/images/P/philips-logo-958ECE926C-seeklogo.com.png",
-        year: "2025"
-    },
+   
     {
         name: "Gene Haas Foundation",
         company_link: "https://ghaasfoundation.org/content/ghf/en/home.html",
