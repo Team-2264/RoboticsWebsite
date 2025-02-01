@@ -13,6 +13,7 @@ import AboutUs from "./pages/aboutUs";
 import Members from "./pages/Members";
 import Donate from "./pages/donate";
 import Newsletter from "./pages/newsletter";
+import ImageDisplay from "./pages/ImageDisplay";
 const App = () => {
 
 
@@ -35,6 +36,7 @@ const App = () => {
                     <Route path="/members" element={<Members />} />
                     <Route path="/donate" element={<Donate />} />
                     <Route path="/newsletter" element={<Newsletter />} />
+                    <Route path="/imagegallery" element={<ImageDisplay />} />
                 </Routes>
             </BrowserRouter>
         </div>

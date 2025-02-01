@@ -10,7 +10,6 @@ import { CurrencyBangladeshiIcon } from '@heroicons/react/24/outline';
 const ArticlePage = () => {
   const { index } = useParams();
   const currentArticle = newsData[index]
-  console.log(currentArticle)
   //  Create template here
   return (
     <div>
