@@ -14,6 +14,7 @@ import {
   NewspaperIcon
 } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import YearSelection from './yearSelection'
 
 const products = [
   { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon, route: "/aboutUs" },
@@ -41,17 +42,21 @@ export default function NavBar() {
   const trojanRoboticsLogoPath = "/assets/images/trojanRoboticsLogoandText.png"
   return (
     <header className="bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav className="mx-auto flex  items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             {/* <Link to={`/${title.toLowerCase()}`}>{title}</Link> */}
             <Link to="/home">
-              <img className="h-8 w-auto" src={trojanRoboticsLogoPath} alt="" />
+              <img className="h-8 max-w-7xl" src={trojanRoboticsLogoPath} alt="" />
             </Link>
           </a>
         </div>
         <div className="flex lg:hidden">
+        <div className={mobileMenuOpen ? " " : "lg:hidden p-1.5"}>
+          <YearSelection/>
+        </div>
+
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -137,8 +142,7 @@ export default function NavBar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+            <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {media.map((item) => (
                     <div
@@ -148,9 +152,7 @@ export default function NavBar() {
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
-
-
-                      <a href={item.route} target='_blank'>
+                   <a href={item.route} target='_blank'>
                         <div className="flex-auto">
                           <a href={item.route} key={item.name} className="block font-semibold text-gray-900">
                             {item.name}
@@ -159,7 +161,6 @@ export default function NavBar() {
                           <p className="mt-1 text-gray-600">{item.description}</p>
                         </div>
                       </a>
-
                     </div>
                   ))}
                 </div>
@@ -168,10 +169,6 @@ export default function NavBar() {
               </Popover.Panel>
             </Transition>
           </Popover>
-
-
-
-
           {
             navBarViewOptions.map((title) => {
               return (
@@ -180,36 +177,11 @@ export default function NavBar() {
                 </a>
               );
             })
-          }
-
+          }       
         </Popover.Group>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-        </div>
+        <YearSelection/>
+        </div>       
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
@@ -263,7 +235,6 @@ export default function NavBar() {
                     </>
                   )}
                 </Disclosure>
-
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -288,12 +259,7 @@ export default function NavBar() {
                           </Link>
                         ))}
                       </Disclosure.Panel>
-
-
-
-
-
-                    </>
+                   </>
                   )}
                 </Disclosure>
 
