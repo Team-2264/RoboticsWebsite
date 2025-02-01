@@ -5,6 +5,7 @@ const YearSelection = ({ startingYear = 2021 }) => {
     const [data, setData] = useState(new Date().getFullYear().toString()); // Default to current year
     const [searchParams, setSearchParams] = useSearchParams();
 
+    
     // Set the year from the query parameter when the component mounts
     useEffect(() => {
         const yearFromQuery = searchParams.get("year");
@@ -19,6 +20,8 @@ const YearSelection = ({ startingYear = 2021 }) => {
 
         // Update the URL without reloading
         setSearchParams({ year: selectedYear });
+
+        window.location.reload();
     };
 
     // Generate the list of years dynamically from the starting year to the current year
@@ -28,7 +31,7 @@ const YearSelection = ({ startingYear = 2021 }) => {
         for (let year = currentYear; year >= startingYear; year--) {
             years.push(
                 <option key={year} value={year}>
-                    {year}-{year + 1}
+                    {year-1}-{year}
                 </option>
             );
         }
