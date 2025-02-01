@@ -11,15 +11,16 @@ export default function Hero({ programName }) {
           <div className="max-w-7xl mx-auto">
             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <img
-                  src="/assets/images/MainTeamPhoto.jpg"
+                  src="/assets/images/2025TeamPhoto.png"
                   alt={programName}
+                  className='scale-125 pr-12'
                 />
                               
                 
               
               <div className="relative px-4 py-16 m:px-6 bg-blue-900 sm:py-6 lg:px-8">
               
-                <h1 className='text-center text-5xl text-yellow-300 object-right '><b>Trojan Robotics</b><span className='text-yellow-300 object-right'> 2264</span></h1>
+                <h1 className='text-center text-5xl text-yellow-300 object-right '><b>Trojan Robotics 2264</b><span className='text-yellow-300 object-right'></span></h1>
 
                 {/* <img
                   src={`/img/logos/${programName}-white.png`}

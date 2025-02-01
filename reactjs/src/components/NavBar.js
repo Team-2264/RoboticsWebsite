@@ -23,11 +23,12 @@ const products = [
   // { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors.', href: '#', icon: UserGroupIcon, route: "/mentors" },
   // { name: 'Members ', description: 'Meet the rest of our fabulous robotics team.', href: '#', icon: UserIcon, route: "/members" },
   { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon, route: "/outreach" },
-  { name: 'Newsletter', description: 'Read our monthly newletter:', href: '#', icon: NewspaperIcon, route: "/newsletter" },
 ]
 
 const media = [
   { name: '2024 Season Images', description: 'Check out our 2024 highlights.', href: '#', icon: CameraIcon, route: "https://photos.app.goo.gl/CWR2trNiPMmJxbWy5" },
+  { name: 'Newsletter', description: 'Read our monthly newletter:', href: '#', icon: NewspaperIcon, route: "/newsletter" },
+  { name: 'Team Blog', description: '', href: '#', icon: NewspaperIcon, route: "/news" },
 ]
 
 function classNames(...classes) {
@@ -37,7 +38,7 @@ function classNames(...classes) {
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const navBarViewOptions = ["News", "Sponsors", "Events", "Contact"]
+  const navBarViewOptions = [ "Sponsors", "Events", "Contact"]
   const trojanRoboticsLogoPath = "/assets/images/trojanRoboticsLogoandText.png"
   return (
     <header className="bg-white">
@@ -128,7 +129,7 @@ export default function NavBar() {
           {/* Drop down for media */}
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Media
+              News Room
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
 
