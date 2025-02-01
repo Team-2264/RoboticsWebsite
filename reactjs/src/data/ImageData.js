@@ -84,14 +84,14 @@ const ImageDataDict = [
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d4.PNG",
+        image_src: "d4.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
-        image_src: "d5.PNG",
+        image_src: "d5.png",
         image_legend: "legend 4",
         year: "2024",
         path: "2024_duluth_regional",
