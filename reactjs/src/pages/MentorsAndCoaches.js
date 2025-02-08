@@ -7,67 +7,61 @@ export default function MentorsAndCoaches() {
         {
             name: "Nira Rajan",
             title: "Head Coach",
-            desc: "Nira has been mentoring with the team for 5 years now, and is now the head coach! Outside of robotics she loves spending time outdoors with her boys!",
+            desc: "Nira is currently the head coach, She is very committed to the team and has been with the team for 7 years. Other then being in robotics she loves to garden, cook, bake, and spend time with her family!",
             imgSrc: "/mentorImages/headCoach.jpg"
         },
         {
             name: "Satish Nayak",
             title: "Assistant Coach",
-            desc: "Satish is a project manager at Medtronic and enjoys helping make improvements to streamline this team. He was a pivotal driver in raising funds last year, allowing the team to attend Houston.",
+            desc: "Satish is a project manager at Medtronic and enjoys helping make improvements to streamline this team. Satish also likes to help the students explore using different tools.",
             imgSrc: "/mentorImages/assistantCoach.jpg"
         },
-        // {
-        //     name: "Robyn Bjella",
-        //     title: "Assistant Coach",
-        //     desc: "This is the third year Robyn has been with the team and is a pivotal driver in this team's outreach. In her spare time Robyn loves to volunteer for the school district and design buildings.",
-        //     imgSrc: "/mentorImages/assistantCoachTwo.jpg"
-        // },
+        {
+            name: "Raj Rajan",
+            title: "Assistant Coach",
+            desc: "Raj has been with Trojan Robotics for 7 years now. He is a mechanical engineer and enjoys building the robot with students!",
+            imgSrc: "/mentorImages/arulRajan.jpg"
+        },
         {
             name: "Rob Simon",
             title: "Software and Mechanical Mentor",
-            desc: "Rob is a legacy mentor and enjoys spending time with students and teaching them new things. Rob is also a engineer in the industry and this year he was pivotal to helping us build our new robot cart from a old stretcher bed.",
+            desc: "Rob is a legacy mentor and enjoys spending time with students and teaching them new things. Rob is also a engineer in the industry and help the students navigate through CAD.",
             imgSrc: "/mentorImages/rob_simon.jpg"
         },
         {
             name: "Nate Peterson",
             title: "Electrical & Programming Mentor",
-            desc: "Nate has been with the team for a very long time and has been the driving force of the team's software and electrtical success. He has always been there to bridge the knowledge gap of outgoing and new members year after year.",
+            desc: "Nate has been a driving force for the team's software and electrical success for many years. He has always been there to bridge the knowledge gap of outgoing and new members year after year.",
             imgSrc: "/mentorImages/natePeterson.jpg"
         },
         {
             name: "Brian Bierman",
             title: "Mechanical Mentor",
-            desc: "Brian has been with the team for a very long time and has always been instrumental for us getting a functioning robot produced and in a timley mannger. Fun fucat: his daugher was the head captain of this team when she was in high school!",
+            desc: "Brian has been intrumental to our team for several years. In helping students create a functioning robot in a timely manner.",
             imgSrc: "/mentorImages/brianBierman.jpg"
         },
         {
             name: "Jenny Zeroni",
-            title: "Marketing and Mechanical Mentor",
-            desc: "Jenny is a vice president at a medical device startup, and enjoys fabricating various different innovations. This is her fourth year with the team and is a key part in our marketing team's success.",
+            title: "Marketing Mentor",
+            desc: "Jenny is the VP of Engineering and Operations at Venturemed Group. She has been with this team for four years, and is very instumental in helping the marketing team fundraise for money.",
             imgSrc: "/mentorImages/jennyZeroni.jpg"
         },
         {
             name: "Mahima Nayak",
-            title: "Outreach and Marketing Mentor",
-            desc: "Mahima is an IT professional working at Medtronic. This is her second year working with FIRST robotics, and she enjoy working with creative individuals who think outside the box and learn throuh their experiences.",
+            title: "Outreach Mentor",
+            desc: "Mahima is a software engineer at Medtonic. This is her second year helping Trojan Robotics, and she has been influential in maintaining the outreach team.",
             imgSrc: "/mentorImages/mahimaNayak.jpg"
         },
         {
-            name: "Arul Rajan",
-            title: "Assistant Coach",
-            desc: "Arun has been with Trojan Robotics for 5 years now. He is a mechanical engineer and enjoys building and fabricating. In his spare time he enjoys spending time with his two boys outside! ",
-            imgSrc: "/mentorImages/arulRajan.jpg"
-        },
-        {
             name: "Dilshan Rajan",
-            title: "Mechanical and Electrical Mentor",
-            desc: "Dilshan is a neuroscience student at the University of Minnesota Twin Cities. He was the former head captain of this team and enjoys building and working with heavy machinery.",
+            title: "Mechanical, Electrical, and Marketing Mentor",
+            desc: "Dilshan is a junior at the UMN majoring in physiology and psychology. In the future, he plans to do an MD/PhD in biomedical engineering. He was the former head captain of this team and continues to come back and passionately mentors students.",
             imgSrc: "/mentorImages/dilshanRajan.jpg"
         },
         {
             name: "Dipesh Panchal",
             title: "Website and Programming Mentor",
-            desc: "Dipesh has been mentoring with FIRST for four years and is now with us for robotics. Outside of robotics he loves spending time with his family and microcontrollers.",
+            desc: "Dipesh has been an instumental FLL, FRC, and FTC Coach for 7+ years. Dipesh has been a master behind creating the fabulous webpage for Trojan Robotics. Outside of robotics he loves spending time with his family.",
            imgSrc: "/mentorImages/dipeshPanchal.JPG"
         },
 
