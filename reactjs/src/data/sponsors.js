@@ -93,6 +93,12 @@ const sponsorsDict = [
         logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
         year: "2025"
     },
+    {
+        name: "Philips",
+        company_link: "https://www.philips.com/global",
+        logoSource: "https://seeklogo.com/images/P/philips-logo-958ECE926C-seeklogo.com.png",
+        year: "2025"
+    },
     
 ]
 
