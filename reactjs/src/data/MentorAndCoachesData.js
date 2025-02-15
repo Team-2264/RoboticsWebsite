@@ -1,14 +1,54 @@
 const mentors = [
-    {       
-        name: "Nira Rajan",
+    {
+        name: "Ken Pashina",
         title: "Head Coach",
+        desc: "Ken is the head coach.",
+        year: "2022",
+    },
+    {    
+        name: "Nira Rajan",
+        title: "Assistant Coach",
+        desc: "Nira is ecstatic to be helping the students grow by learning about robotics. She is a key part to the success of this team.",
+        imgSrc: "/mentorImages/headCoach.jpg",
+        year: "2022"
+    },
+    {     
+        name: "Rob Simon",
+        title: "Software and Mechanical Mentor",
+        desc: "With a deep commitment to fostering creativity and teamwork, he finds immense joy in guiding his students through the challenges of building cutting-edge robots.",
+        imgSrc: "/mentorImages/rob_simon.jpg",
+        year: "2022"
+    },
+    {
+        name: "Nate Peterson",
+        title: "Electrical & Programming Mentor",
+        desc: "Nate is thrilled to be mentoring a talented robotics team, where his passion for technology and innovation meets the enthusiasm of the next generation of engineers.",
+        imgSrc: "/mentorImages/natePeterson.jpg",
+        year: "2022"
+    },
+    {
+        name: "Brian Bierman",
+        title: "Mechanical Mentor",
+        desc: "His passion for engineering and problem-solving fuels his dedication to guiding the team through the intricacies of mechanical design and bringing their robotic visions to life.",
+        imgSrc: "/mentorImages/brianBierman.jpg",
+        year: "2022"
+    },
+    {
+        name: "Ken Pashina",
+        title: "Head Coach",
+        desc: "Ken is the head coach.",
+        year: "2023",
+    },
+    {           
+        name: "Nira Rajan",
+        title: "Assistant Coach",
         desc: "Nira is very happy to come to practice in person, after Covid. She is very thrilled to be at robotics and constanly helping students by supporting them. As well as that, she fosters a collaborative environment where students innovate and excel in robotics competitions.",
         imgSrc: "/mentorImages/headCoach.jpg",
         year: "2023"
     },
     {
         name: "Satish Nayak",
-        title: "Assistant Coach",
+        title: "Mechanical Mentor",
         desc: "With a background in engineering, he fosters a collaborative environment that encourages problem-solving and innovation among team members.",
         imgSrc: "/mentorImages/assistantCoach.jpg",
         year: "2023"
@@ -62,7 +102,14 @@ const mentors = [
         imgSrc: "mentorImages/assistantCoach.jpg",
         year: "2024"
     },
-    {    
+    {
+        name: "Raj Rajan",
+        title: "Assistant Coach",
+        desc: "Raj has been with Trojan Robotics for 5 years now. He is a mechanical engineer and enjoys building and fabricating. In his spare time he enjoys spending time with his two boys outside! ",
+        imgSrc: "/mentorImages/arulRajan.jpg",
+        year: "2024"
+    },
+    {        
         name: "Robyn Bjella",
         title: "Assistant Coach",
         desc: "This is the third year Robyn has been with the team and is a pivotal driver in this team's outreach. In her spare time Robyn loves to volunteer for the school district and design buildings.",
@@ -102,13 +149,6 @@ const mentors = [
         title: "Outreach Mentor and Marketing Mentor",
         desc: "Mahima is an IT professional working at Medtronic. This is her second year working with FIRST robotics, and she enjoy working with creative individuals who think outside the box and learn throuh their experiences.",
         imgSrc: "mentorImages/mahimaNayak.jpg",
-        year: "2024"
-    },
-    {
-        name: "Raj Rajan",
-        title: "Assistant Coach",
-        desc: "Raj has been with Trojan Robotics for 5 years now. He is a mechanical engineer and enjoys building and fabricating. In his spare time he enjoys spending time with his two boys outside! ",
-        imgSrc: "/mentorImages/arulRajan.jpg",
         year: "2024"
     },
     {

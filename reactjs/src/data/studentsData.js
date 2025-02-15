@@ -73,7 +73,7 @@ const studentData = [
         name: "Jennifer (Sieun) Sung",
         title: "Programming Captain",
         desc: "Jennifer loves to inspire and encourage people to join STEM.",
-        imgSrc: "/studentImages/jenniferSung.jpg",
+        imgSrc: "/studentImages/jenniferSung.JPG",
         year: "2024"
     },
     {
