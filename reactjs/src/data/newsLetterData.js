@@ -41,5 +41,11 @@ const newsLetterData = [
         srcOfNewsLetter: "/assets/newsletter/JanuaryNewsletter2025.pdf",
         year:"2025"
     },
+    {
+        date: "February 07, 2025",
+        srcOfImage: "/assets/newsletter/FebruaryNewsletter2025.png",
+        srcOfNewsLetter: "/assets/newsletter/FebruaryNewsletter2025.pdf",
+        year:"2025"
+    },
 ]
 export default newsLetterData;
