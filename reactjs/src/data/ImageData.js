@@ -198,77 +198,77 @@ const ImageDataDict = [
     },
     {
         image_src: "d24.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d25.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d26.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d27.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d28.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d29.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d30.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d31.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d32.jpeg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d33.jpg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
     },
     {
         image_src: "d34.jpg",
-        image_legend: "Our robotics team is hard at work in the pit, making adjustments to our robot at Worlds in Houston",
+        image_legend: "",
         year: "2024",
         path: "2024_duluth_regional",
         name: "2024 Duluth Regional"
@@ -616,20 +616,7 @@ const ImageDataDict = [
         path: "2024_medtronic_jumpstart",
         name: "2024 Medtronic Jumpstart",
     },
-    {
-        image_src: "m10.jpeg",
-        image_legend: "Legend 1",
-        year: "2024",
-        path: "2024_medtronic_jumpstart",
-        name: "2024 Medtronic Jumpstart",
-    },
-    {
-        image_src: "m11.jpeg",
-        image_legend: "Legend 1",
-        year: "2024",
-        path: "2024_medtronic_jumpstart",
-        name: "2024 Medtronic Jumpstart",
-    },
+   
     {
         image_src: "med1.jpg",
         image_legend: "Legend 1",
