@@ -15,25 +15,22 @@ import {
 } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 import ImageDataDict from "../data/ImageData";
-import YearSelection from './yearSelection'
+import YearSelection from './yearSelection';
 
 const uniqueValue = ImageDataDict.filter((value, index, self) =>
   index === self.findIndex((t) => (
       t.year === value.year && t.path === value.path
   )))
-
 const products = [
   { name: 'About Us', description: 'Learn about our team and our values', href: '#', icon: TrophyIcon, route: "/aboutUs" },
   { name: 'FIRST', description: 'FIRST is a global robotics community that prepares young people for the future', href: 'https://www.firstinspires.org/robotics/frc', route: "https://www.firstinspires.org/robotics/frc", icon: CursorArrowRaysIcon },
-  // { name: 'Captains', description: 'Meet our captains', href: '#', icon: UserCircleIcon, route: "/students" },
-  // { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors.', href: '#', icon: UserGroupIcon, route: "/mentors" },
+  { name: 'Captains', description: 'Meet our captains', href: '#', icon: UserCircleIcon, route: "/students" },
+  { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors.', href: '#', icon: UserGroupIcon, route: "/mentors" },
   // { name: 'Members ', description: 'Meet the rest of our fabulous robotics team.', href: '#', icon: UserIcon, route: "/members" },
   { name: 'Community Outreach', description: 'Spreading our love of robotics to the community!', href: '#', icon: GlobeAltIcon, route: "/outreach" },
 ]
 
 const media = [
-  // { name: '2024 Season Images New', description: 'Check out our 2024 highlights.', href: '#', icon: CameraIcon, route: "/imagegallery" },
-  // { name: '2024 Season Images', description: 'Check out our 2024 highlights.', href: '#', icon: CameraIcon, route: "https://photos.app.goo.gl/CWR2trNiPMmJxbWy5" },
   { name: 'Newsletter', description: 'Read our monthly newletter:', href: '#', icon: NewspaperIcon, route: "/newsletter" },
   { name: 'Team Blog', description: '', href: '#', icon: NewspaperIcon, route: "/news" },
 ]
@@ -44,7 +41,6 @@ function classNames(...classes) {
 
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   const navBarViewOptions = [ "Sponsors", "Events", "Contact"]
   const trojanRoboticsLogoPath = "/assets/images/trojanRoboticsLogoandText.png"
   return (
