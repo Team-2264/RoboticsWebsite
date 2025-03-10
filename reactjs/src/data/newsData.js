@@ -14,7 +14,7 @@ const newsData = [
         desc: "",
         article: "Trojan Robotics has been busy with outreach and preseason preparations! Our t-shirt cannon robot has been a hit at the Wayzata football games, launching t-shirts into the crowd of cheering fans. We also had a booth at the Block Party where we shared information about upcoming events and hosted a fun ring toss game. To bond as a team, we enjoyed a movie night watching \"The Wild Robot.\" In preseason news, our marketing team is focusing on innovative approaches to engage a more diverse team. The mechanical team is training with CAD and is immersed in preparations for the build season. The programming team has continued improving the t-shirt cannon robot's codebase and working on our training robot, and new drivers have tested their skills, creating a list of potential drivers for upcoming competitions.",
         date: "October 23, 2024",
-        srcOfImage: "/assets/images/blogpost/Outreach_ Preseason_2024.jpg",
+        srcOfImage: "/assets/images/blogpost/Outreach_Preseasonupdate_2024.png",
         author: "",
         year:"2024",
 
