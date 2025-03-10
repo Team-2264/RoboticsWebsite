@@ -2,7 +2,7 @@ const mentors = [
     {
         name: "Ken Pashina",
         title: "Head Coach",
-        desc: "Ken is the head coach.",
+        desc: "Ken is the head coach for 2021-2022.",
         year: "2022",
     },
     {    
@@ -36,7 +36,7 @@ const mentors = [
     {
         name: "Ken Pashina",
         title: "Head Coach",
-        desc: "Ken is the head coach.",
+        desc: "Ken is the head coach for 2022-2023.",
         year: "2023",
     },
     {           
