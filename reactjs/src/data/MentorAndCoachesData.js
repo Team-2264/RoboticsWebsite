@@ -1,9 +1,59 @@
 const mentors = [
-    {
+    {   
+        name: "Ken Pashina",
+        title: "Head Coach",
+        desc: "Ken is the head coach for 2020-2021.",
+        imgSrc: "studentImages/wayzata.png",
+        year: "2021"
+    },
+    {    
+        name: "Nira Rajan",
+        title: "Assistant Coach",
+        desc: "Nira has been mentoring with the team for 2 years now, and is the assistant coach! Outside of robotics she loves spending time outdoors with her boys!",
+        imgSrc: "/mentorImages/headCoach.jpg",
+        year: "2021"
+    },
+    {    
+        name: "Rob Simon",
+        title: "Software and Mechanical Mentor",
+        desc: "With a deep commitment to fostering creativity and teamwork, he finds immense joy in guiding his students through the challenges of building cutting-edge robots.",
+        imgSrc: "/mentorImages/rob_simon.jpg",
+        year: "2021"
+    },
+    {    
+        name: "Nate Peterson",
+        title: "Electrical & Programming Mentor",
+        desc: "Nate is thrilled to be mentoring a talented robotics team, where his passion for technology and innovation meets the enthusiasm of the next generation of engineers.",
+        imgSrc: "/mentorImages/natePeterson.jpg",
+        year: "2021"
+    },
+    {    
+        name: "Brian Bierman",
+        title: "Mechanical Mentor",
+        desc: "His passion for engineering and problem-solving fuels his dedication to guiding the team through the intricacies of mechanical design and bringing their robotic visions to life.",
+        imgSrc: "/mentorImages/brianBierman.jpg",
+        year: "2021"
+    },
+    {    
+        name: "Raj Rajan",
+        title: "Assistant Coach",
+        desc: "Raj has been with Trojan Robotics for 2 years now. He is a mechanical engineer and enjoys building the robot with students!",
+        imgSrc: "/mentorImages/arulRajan.jpg",
+        year: "2021"
+    },
+    {    
+        name: "Jenny Zeroni",
+        title: "Marketing Mentor",
+        desc: "Jenny is the VP of Engineering and Operations at Venturemed Group. She has been with this team for 1 year, and is very instumental in helping the marketing team fundraise for money.",
+        imgSrc: "/mentorImages/jennyZeroni.jpg",
+        year: "2021"
+    },
+    {    
         name: "Ken Pashina",
         title: "Head Coach",
         desc: "Ken is the head coach for 2021-2022.",
-        year: "2022",
+        imgSrc: "/studentImages/wayzata.png",
+        year: "2022"
     },
     {    
         name: "Nira Rajan",
@@ -37,7 +87,8 @@ const mentors = [
         name: "Ken Pashina",
         title: "Head Coach",
         desc: "Ken is the head coach for 2022-2023.",
-        year: "2023",
+        imgSrc: "/studentImages/wayzata.png",
+        year: "2023"
     },
     {           
         name: "Nira Rajan",
@@ -231,7 +282,7 @@ const mentors = [
     {
         name: "Jenny Zeroni",
         title: "Former Marketing Mentor",
-        desc: "Jenny is the VP of Engineering and Operations at Venturemed Group. She has been with this team for four years, and is very instumental in helping the marketing team fundraise for money.",
+        desc: "Jenny is the VP of Engineering and Operations at Venturemed Group. She has been with this team for three years, and is very instumental in helping the marketing team fundraise for money.",
         imgSrc: "/mentorImages/jennyZeroni.jpg",
         year: "2025"
     }    
