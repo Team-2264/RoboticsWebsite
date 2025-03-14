@@ -1,7 +1,126 @@
 const studentData = [
     {
-        name: "Rukshan Rajan",
+        name: "Andrea Bierman",
         title: "Head Captain",
+        desc: "",
+        imgSrc: "/studentImages/andreaBierman2024.jpeg",
+        year: "2021"
+    },
+    {    
+        name: "Jack Rivera",
+        title: "Electrical Captain",
+        desc: "",
+        imgSrc: "/studentImages/jackRivera.jpeg",
+        year: "2021"
+    },
+    {    
+        name: "Dilshan Rajan",
+        title: "Captain",
+        desc: "",
+        imgSrc: "/mentorImages/dilshanRajan.jpg",
+        year: "2021"
+    },
+    {    
+        name: "Aditi Edpuganti",
+        title: "Marketing Captain",
+        desc: "",
+        imgSrc: "/studentImages/aditiEdpuganti2025.jpg",
+        year: "2021"
+    },
+    {    
+        name: "Cameron",
+        title: "Programming Captain",
+        desc: "",
+        imgSrc: "/studentImages/wayzata.png",
+        year: "2021"
+    },
+    {
+        name: "Dilshan Rajan",
+        title: "Head Captain",
+        desc: "",
+        imgSrc: "/mentorImages/dilshanRajan.jpg",
+        year: "2022"
+    },
+    {   
+        name: "Neev Mangal",
+        title: "Programming Captain",
+        desc: "",
+        imgSrc: "/studentImages/neevMangal.jpg",
+        year: "2022"  
+    },
+    {    
+        name: "Vennela Dupati",
+        title: "Electrical Captain",
+        desc: "",
+        imgSrc: "/studentImages/vennellaDupati.png",
+        year: "2022"
+    },
+    {
+        name: "Aditi Edpuganti",
+        title: "Marketing Captain",
+        desc: "",
+        imgSrc: "/studentImages/aditiEdpuganti2025.jpg",
+        year: "2022"   
+    },
+    {     
+        name: "Tanvi Gorripati",
+        title: "Captain",
+        desc: "",
+        imgSrc: "/studentImages/tanviGorripati.jpg",
+        year: "2022"
+    },
+    {    
+        name: "Tarun Gorripati",
+        title: "Mechanical Captain",
+        desc: "",
+        imgSrc: "/studentImages/tarunGorripati2025.jpg",
+        year: "2022"
+    },
+    {
+        name: "Neev Mangal",
+        title: "Co-Captain",
+        desc: "",
+        imgSrc: "/studentImages/neevMangal.jpg",
+        year: "2023"
+    },
+    {  
+        name: "Stephen Baran",
+        title: "Co-Captain",
+        desc: "",
+        imgSrc: "/studentImages/stevenBaran.jpg",
+        year: "2023"
+    },
+    {  
+        name: "Vennela Dupati",
+        title: "Co-Captain",
+        desc: "",
+        imgSrc: "/studentImages/vennellaDupati.png",
+        year: "2023"
+    },
+    {  
+        name: "Aditi Edpuganti",
+        title: "Marketing Captain",
+        desc: "",
+        imgSrc: "/studentImages/aditiEdpuganti2025.jpg",
+        year: "2023"
+    },
+    {  
+        name: "Tanvi Gorripati",
+        title: "Captain",
+        desc: "",
+        imgSrc: "/studentImages/tanviGorripati.jpg",
+        year: "2023"
+    },
+    {  
+        name: "Tarun Gorripati",
+        title: "Mechanical Captain",
+        desc: "",
+        imgSrc: "/studentImages/tarunGorripati2025.jpg",
+        year: "2023"
+    },
+    {    
+        name: "Rukshan Rajan",
+        title: "Head Co-Captain",
         desc: "Rukshan has been doing robotics since he was in elementary school and loves working with his hands. In his free time he loves to mountain bike and participate in boy scouts.",
         imgSrc: "/studentImages/rukshanRajan.jpg",
         year: "2024"
@@ -15,21 +134,14 @@ const studentData = [
     },
     {
         name: "Yoojin Nam",
-        title: "Head Captain",
+        title: "Outreach Captain",
         desc: "Yoojin is the driving force behind the social media presence of this team. She has implemented innovative methods to captivate the attention of our audience. She also led the development of our first ever outreach team!",
         imgSrc: "/studentImages/yoojinNam.jpg",
         year: "2024"
     },
     {
-        name: "Avi Bandi",
-        title: "Mechanical Captain",
-        desc: "Avi was instrumental in creating the new outreach subdivision and was instrumental in creating our new website. In his free time he loves to program and have fun with his friends.",
-        imgSrc: "/studentImages/aviBandi.JPG",
-        year: "2024"
-    },
-    {
          name: "Evan Hsieh",
-         title: " Co-Webmaster",
+         title: "Webmaster",
          desc: "Evan is a brilliant designer with expertise in website design. He played a pivotal role in assisting Avi in creating the new Trojan Robotics website. In addition to his design skills, Evan enjoys playing Valorant and competing in violin competitions.",
          imgSrc: "/studentImages/evanHsieh.JPG",
          year: "2024"
@@ -43,7 +155,7 @@ const studentData = [
     },
     {
         name: "Ankush Nayak",
-        title: "Mechanical Captain",
+        title: "Mechanical Co-Captain",
         desc: "Ankush is a stellar robotics member that everyone can go to when they need help on a project or just with personel advice. In his free time he likes to play basketball.",
         imgSrc: "/studentImages/ankushNayak.jpg",
         year: "2024"
@@ -57,23 +169,23 @@ const studentData = [
     },
     {
         name: "Lakshmi Kandikonda",
-        title: "Marketing Capatain",
+        title: "Marketing Co-Captain",
         desc: "Lakshmi has been instrumental to our team's marketing success and in the future hopes to pursue a major in the stem field. In her free time she loves to hang out with her friends and bake.",
         imgSrc: "/studentImages/lakshmiKandikonda.jpg",
         year: "2024"
     },
     {
         name: "Eva Roberts",
-        title: "Saftey Captain",
+        title: "Safety Captain",
         desc: "Eva always love creating something out of seemingly nothing, especially with a team. She aspires to be an aerospace engineer one day!",
         imgSrc: "/studentImages/evaRoberts.jpg",
         year: "2024"
     },
     {
-        name: "Jennifer (Sieun) Sung",
+        name: "Jake Deininger",
         title: "Programming Captain",
-        desc: "Jennifer loves to inspire and encourage people to join STEM.",
-        imgSrc: "/studentImages/jenniferSung.JPG",
+        desc: "Jake has been with the team for 2 years now and loves to code. In his free time he likes to play video games and hang out with his friends.",
+        imgSrc: "/studentImages/jakeDeininger.JPG",
         year: "2024"
     },
     {
