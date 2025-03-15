@@ -42,13 +42,6 @@ const mentors = [
         year: "2021"
     },
     {    
-        name: "Jenny Zeroni",
-        title: "Marketing Mentor",
-        desc: "Jenny is the VP of Engineering and Operations at Venturemed Group. She has been with this team for 1 year, and is very instumental in helping the marketing team fundraise for money.",
-        imgSrc: "/mentorImages/jennyZeroni.jpg",
-        year: "2021"
-    },
-    {    
         name: "Ken Pashina",
         title: "Head Coach",
         desc: "Ken is the head coach for 2021-2022.",
@@ -81,6 +74,20 @@ const mentors = [
         title: "Mechanical Mentor",
         desc: "His passion for engineering and problem-solving fuels his dedication to guiding the team through the intricacies of mechanical design and bringing their robotic visions to life.",
         imgSrc: "/mentorImages/brianBierman.jpg",
+        year: "2022"
+    },
+    {    
+        name: "Jenny Zeroni",
+        title: "Marketing Mentor",
+        desc: "Jenny is the VP of Engineering and Operations at Venturemed Group. She has been with this team for 1 year, and is very instumental in helping the marketing team fundraise for money.",
+        imgSrc: "/mentorImages/jennyZeroni.jpg",
+        year: "2022"
+    },
+    {
+        name: "Raj Rajan",
+        title: "Assistant Coach",
+        desc: "Raj has been with Trojan Robotics for 3 years now. He is a mechanical engineer and enjoys building the robot with students!",
+        imgSrc: "/mentorImages/arulRajan.jpg",
         year: "2022"
     },
     {
