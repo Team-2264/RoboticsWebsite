@@ -185,7 +185,7 @@ const studentData = [
         name: "Jake Deininger",
         title: "Programming Captain",
         desc: "Jake has been with the team for 2 years now and loves to code. In his free time he likes to play video games and hang out with his friends.",
-        imgSrc: "/studentImages/jakeDeininger.JPG",
+        imgSrc: "/studentImages/jakeDeininger.jpg",
         year: "2024"
     },
     {
