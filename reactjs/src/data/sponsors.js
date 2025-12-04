@@ -64,9 +64,9 @@ const sponsorsDict = [
         logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
         year: "2024"
     },    {
-        name: "3M",
-        company_link: "https://www.3m.com/",
-        logoSource: "https://news.3m.com/image/Trifecta+3M+001+Logo+CMYK_thumb.jpg",
+        name: "Moorhead Plumbing & Heating",
+        company_link: "https://www.moorheadplumbing.com/",
+        logoSource: "https://media-content.angi.com/tampa/37177413/service_provider/11534811/logo/21798a2902f0424d801a49dce20d7ac2-photomania-1adf40374abb47d4850e303c4097acc5.jpg",
         year: "2025"
     },
    
@@ -79,7 +79,7 @@ const sponsorsDict = [
     {
         name: "Medtronic",
         company_link: "https://www.medtronic.com/us-en/index.html",
-        logoSource: "https://1000logos.net/wp-content/uploads/2021/09/Medtronic-Logo.png",
+        logoSource: "https://i.imgur.com/kVv3G1D_d.webp?maxwidth=1520&fidelity=grand",
         year: "2025"
     },
     {
@@ -89,17 +89,22 @@ const sponsorsDict = [
         year: "2025"
     },
     {
-        name: "Friends and Family",
-        logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
+        name: "Productivity Inc",
+        company_link: "https://www.productivity.com/",
+        logoSource: "https://www.productivity.com/wp-content/uploads/2019/09/PI_Logo_RedBlack_CMYK.jpg",
         year: "2025"
     },
     {
         name: "Philips",
         company_link: "https://www.philips.com/global",
-        logoSource: "https://seeklogo.com/images/P/philips-logo-958ECE926C-seeklogo.com.png",
+        logoSource: "https://i.imgur.com/RjNQQHX.png",
         year: "2025"
     },
-    
+    {
+        name: "Friends and Family",
+        logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
+        year: "2025"
+    },
 ]
 
 export default sponsorsDict;
