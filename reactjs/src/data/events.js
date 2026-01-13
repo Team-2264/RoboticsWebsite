@@ -1,10 +1,12 @@
 const events = [
 
     {
-        name: "10,000 Lakes Regional Competition",
-        month: "March",
-        date: "26-29",
-        location: "MN State Fairgrounds",
+        name: "North Star Regional",
+        month: "April",
+        date: "1-4",
+        location: "Mariucci Arena University of MN, Minneapolis",
+
+
     },
     {
         name: "Asian Fair",

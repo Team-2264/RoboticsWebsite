@@ -18,8 +18,12 @@ export default function Home (){
             <NavBar />
         
             <Hero />
-            {/* Use the following only if you want to have a pop up */}
+            {/* Use the following only if you want to have a pop up }
+
+            
             <AlertMessage/> 
+           */}
+            
             <br></br>
             <br></br>
             <div className="grid grd-cols-1 sm:grid-cols-4 gap-4">

@@ -1,5 +1,35 @@
 const newsData = [
     {
+        title: "STEMTACULAR EVENT",
+        desc: "On November 8, we showcased our t-shirt shooting robot and 2024-2025 competition robot. Kids caught t-shirts and got to control the robot—sparking curiosity in STEAM. Stay tuned for more events!",
+        article: "On November 8th from 10:00AM - 12:00PM, we showcased our t-shirt shooting robot and our competition robot from the 2024-2025 season. There, kids tried to catch the t-shirts, and they also had the opportunity to control the robot. It was fun to help foster a curiosity for STEAM among the next generation. Look forward to our upcoming events!",
+        srcOfImage: "/assets/images/blogpost/Stemtacular2025.jpg",
+        author: "",
+        year:"2025",
+
+
+    },
+    {
+        title: "MEDTRONIC JUMPSTART",
+        desc: "",
+        article: "On October 25th, we presented at Medtronic Jumpstart! Our captains went into detail about our build season last year, presenting to teams all across the state. The presentation underlined how our Marketing, Mechanica and Programming teams were structured, our pros and cons from the past year, and how we plan on improving. We got first place at the Paper Airplane Engineering competition! Most importantly, our team learned a great deal from the other teams and had fun!",
+        srcOfImage: "/assets/images/blogpost/Medtronic_Jumpstart2025.jpg",
+        author: "",
+        year:"2025",
+
+
+    },
+    {
+        title: "HOMECOMING FOOTBALL GAME",
+        desc: "",
+        article: "On October 3rd, we launched our t-shirt shooting robot at the Wayzata Homecoming Football Game. Everyone enjoyed the display of t-shirts being launched into the air, and we were glad to demonstrate Trojan Pride! We also launched our t- shirt shooting robot at the Tackle Cancer Football Event on October 10th at Wayzata High School.",
+        srcOfImage: "",
+        author: "",
+        year:"2025",
+
+
+    },
+    {
         title: "Supporting Team Atlantic",
         desc: "",
         article: "Today, Trojan Robotics had the pleasure of assisting Team Atlantic with their robotics and project presentation! They presented their project idea to us, and we provided feedback to help them improve their presentation. We were impressed with their work and enjoyed the opportunity to collaborate with them. We wish Team Atlantic the best of luck in their competition on January 12th!",
