@@ -57,7 +57,9 @@ export default function NavBar() {
         </div>
         <div className="flex lg:hidden">
         <div className={mobileMenuOpen ? " " : "lg:hidden p-1.5"}>
+          {/*}
           <YearSelection/>
+          */}
         </div>
 
           <button
@@ -197,7 +199,9 @@ export default function NavBar() {
           }       
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          {/*}
         <YearSelection/>
+        */}
         </div>       
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
