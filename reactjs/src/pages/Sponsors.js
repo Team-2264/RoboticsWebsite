@@ -5,7 +5,7 @@ export default function Sponsors() {
 let windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);
 let year=params.get("year");
-if (year==null){
+if (year===null){
     year=new Date().getFullYear();
 }
     return (
@@ -19,7 +19,7 @@ if (year==null){
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-6 gap-6">
                         {
-                            sponsorsDict.filter(p => {return p.year==year}).map((eachSponsor) => {
+                            sponsorsDict.filter(p => {return p.year===year}).map((eachSponsor) => {
                                 return (
                                     <div className="">
                                         <a target="_target" href={eachSponsor.company_link}>

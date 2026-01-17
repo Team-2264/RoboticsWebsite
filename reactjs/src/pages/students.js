@@ -6,7 +6,7 @@ export default function Students() {
 let windowUrl = window.location.search;
 const params = new URLSearchParams(windowUrl);
 let year=params.get("year");
-if (year==null){
+if (year===null){
     year=new Date().getFullYear();
 }
 
@@ -20,11 +20,11 @@ if (year==null){
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 pt-9 gap-8 pb-4">
                     {
-                            studentData.filter(p => {return p.year==year}).map((info) => {
+                            studentData.filter(p => {return p.year===year}).map((info) => {
                             return (
                                 <div className="grid grid-cols-1 md:grid-cols-3">
 
-                                    <img className="rounded-lg shadow-2xl h-[185px] w-[185px]" src={info.imgSrc} />
+                                    <img className="rounded-lg shadow-2xl h-[185px] w-[185px]" src={info.imgSrc} alt="" />
                                     <div className="md:col-span-2 md:pl-6">
                                         <h1 className="font-bold text-xl">{info.name}</h1>
                                         <h1 className="font-bold text-base text-blue-800 pt-1">{info.title}</h1>

@@ -1,14 +1,13 @@
 import Footer from "../components/footer";
-import React from "react";
+
 import NavBar from "../components/NavBar";
 import Hero from "../components/hero";
 import LatestNews from "../components/lastestNews";
-import AlertMessage from "../components/alertMessage";
+
 import Awards from "../components/awards";
 import UpcomingEvents from "../components/upcomingEvents";
 import Timeline from "../components/timeline";
-import YouTubeEmbed from "../components/YoutubeEmbed";
-import { Link } from 'react-router-dom'
+
 import "../App.css"
 
 
