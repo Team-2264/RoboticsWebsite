@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import pdf from "../documents/donate.pdf"
+
 export default function Hero({ programName }) {
   return (
     <div>

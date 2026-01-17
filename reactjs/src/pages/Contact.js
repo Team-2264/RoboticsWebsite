@@ -1,6 +1,6 @@
-import Footer from "../components/footer";
+
 import NavBar from "../components/NavBar";
-import ReactDOM from 'react-dom/client';
+
 import { useFormik } from "formik";
 import * as Yup from 'yup'
 export default function Contact() {
@@ -14,7 +14,7 @@ export default function Contact() {
     })
 
     // Validate form
-    validationSchema: Yup.object({
+   Yup.object({
         name: Yup.string().required("Name is required"),
         email: Yup.string().email("Invalid Email").required("Email is required"),
         message: Yup.string().required("Message is required")

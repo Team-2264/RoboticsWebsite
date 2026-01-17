@@ -26,7 +26,7 @@ export default function Events() {
                 <br></br>
                 <h1 className="font-bold text-2xl text-left pt:8">2024 Season Calender</h1>
                 <h2 className="pt-2 pb-2 text-gray-700">All are welcome to join our practices!</h2>
-                <iframe src="https://calendar.google.com/calendar/embed?src=93774d1ffce941f9b456acb5bc5cd0d4152b8b683ddc3aa321ed61d4ec482655%40group.calendar.google.com&ctz=America%2FChicago" width="800" height="700"></iframe>
+                <iframe src="https://calendar.google.com/calendar/embed?src=93774d1ffce941f9b456acb5bc5cd0d4152b8b683ddc3aa321ed61d4ec482655%40group.calendar.google.com&ctz=America%2FChicago" width="800" height="700" title = "Calendar"></iframe>
             </div>
             <Footer />
         </div>

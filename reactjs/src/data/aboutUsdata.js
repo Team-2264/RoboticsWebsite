@@ -1,4 +1,4 @@
-import { ArrowPathIcon, ChatBubbleOvalLeftEllipsisIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, UserGroupIcon, WrenchIcon } from '@heroicons/react/24/outline'
+import { ChatBubbleOvalLeftEllipsisIcon, UserGroupIcon, WrenchIcon } from '@heroicons/react/24/outline'
 const aboutUSdata = [
     {
         name: 'Diversity',

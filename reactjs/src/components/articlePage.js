@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import newsData from '../data/newsData';
 import NavBar from './NavBar';
 import Footer from './footer';
-import { CurrencyBangladeshiIcon } from '@heroicons/react/24/outline';
+
 
 const ArticlePage = () => {
   const { index } = useParams();
