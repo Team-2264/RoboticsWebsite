@@ -1,6 +1,6 @@
 import React from "react"
 import NavBar from "../components/NavBar"
-import Footer from "../components/footer"
+
 import OutReachData from "../data/OutReachData"
 export default function OutReach() {
 let windowUrl = window.location.search;
@@ -48,4 +48,6 @@ if (year===null){
 
         </div>
     )
+   
+
 }

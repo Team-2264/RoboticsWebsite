@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import { Dialog,Popover, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
   CursorArrowRaysIcon,
@@ -34,9 +34,7 @@ const media = [
   { name: 'Team Blog', description: '', route: "/news", icon: NewspaperIcon },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+
 
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
