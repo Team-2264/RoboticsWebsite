@@ -16,7 +16,7 @@ if (year==null){
             <br></br>
             <div className="max-w-6xl mx-auto">
                 <div >
-                    <h1 className="font-bold text-center text-3xl">Trojan Robotics Captains</h1>
+                    <h1 className="font-bold text-center text-3xl">Trojan Robotics Student Members</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 pt-9 gap-8 pb-4">
                     {
