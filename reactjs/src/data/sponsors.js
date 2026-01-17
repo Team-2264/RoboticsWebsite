@@ -99,6 +99,22 @@ const sponsorsDict = [
         logoSource: "https://seeklogo.com/images/P/philips-logo-958ECE926C-seeklogo.com.png",
         year: "2025"
     },
+    {
+        name: "Medtronic",
+        company_link: "https://www.medtronic.com/us-en/index.html",
+        logoSource: "https://1000logos.net/wp-content/uploads/2021/09/Medtronic-Logo.png",
+        year: "2026"
+    },
+    {
+        name: "Friends and Family",
+        logoSource: "https://www.liveremotesupport.net/content/wp-content/uploads/2019/03/friends-family.jpg",
+        year: "2026"
+    },
+    {
+        name: "Friends and Family",
+        logoSource: "https://medialiteracynow.org/wp-content/uploads/2024/07/1.png",
+        year: "2026"
+    },
     
 ]
 

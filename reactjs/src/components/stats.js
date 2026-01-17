@@ -1,7 +1,7 @@
 const stats = [
-    { id: 1, name: 'Countries Represented', value: '11' },
-    { id: 2, name: 'Years of Legacy', value: '18' },
-    { id: 3, name: 'World Innovators', value: '21' },
+    { id: 1, name: 'Countries Represented', value: '15' },
+    { id: 2, name: 'Years of Legacy', value: '19' },
+    { id: 3, name: 'World Innovators', value: '20' },
   ]
   
   export default function Stats() {
