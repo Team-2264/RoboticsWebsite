@@ -293,8 +293,65 @@ const mentors = [
         desc: "Jenny is the VP of Engineering and Operations at Venturemed Group. She has been with this team for three years, and is very instumental in helping the marketing team fundraise for money.",
         imgSrc: "/mentorImages/jennyZeroni.jpg",
         year: "2025"
-    }    
-    
+    },
+     {    
+        name: "Nira Rajan",
+        title: "Head Coach",
+        desc: "Nira is currently the head coach, She is very committed to the team and has been with the team for 7 years. Other then being in robotics she loves to garden, cook, bake, and spend time with her family!",
+        imgSrc: "/mentorImages/headCoach.jpg",
+        year: "2026"
+    },
+    {
+        name: "Satish Nayak",
+        title: "Assistant Coach",
+        desc: "Satish is a project manager at Medtronic and enjoys helping make improvements to streamline this team. Satish also likes to help the students explore using different tools.",
+        imgSrc: "/mentorImages/assistantCoach.jpg",
+        year: "2026"
+    },
+    {
+        name: "Raj Rajan",
+        title: "Assistant Coach",
+        desc: "Raj has been with Trojan Robotics for 7 years now. He is a mechanical engineer and enjoys building the robot with students!",
+        imgSrc: "/mentorImages/arulRajan.jpg",
+        year: "2026"
+    },
+    {
+        name: "Rob Simon",
+        title: "Software and Mechanical Mentor",
+        desc: "Rob is a legacy mentor and enjoys spending time with students and teaching them new things. Rob is also a engineer in the industry and help the students navigate through CAD.",
+        imgSrc: "/mentorImages/rob_simon.jpg",
+        year: "2026"
+    },
+    {
+        name: "Nate Peterson",
+        title: "Electrical & Programming Mentor",
+        desc: "Nate has been a driving force for the team's software and electrical success for many years. He has always been there to bridge the knowledge gap of outgoing and new members year after year.",
+        imgSrc: "/mentorImages/natePeterson.jpg",
+        year: "2026"
+    },
+    {
+        name: "Brian Bierman",
+        title: "Mechanical Mentor",
+        desc: "Brian has been intrumental to our team for several years. In helping students create a functioning robot in a timely manner.",
+        imgSrc: "/mentorImages/brianBierman.jpg",
+        year: "2026"
+    },
+    {
+        name: "Mahima Nayak",
+        title: "Outreach and Website Mentor",
+        desc: "Mahima is a software engineer at Medtonic. This is her second year helping Trojan Robotics, and she has been influential in maintaining the outreach team.",
+        imgSrc: "/mentorImages/mahimaNayak.jpg",
+        year: "2026"
+    },
+  
+    {
+        name: "Dipesh Panchal",
+        title: "Programming Mentor",
+        desc: "Dipesh has been an instumental FLL, FRC, and FTC Coach for 7+ years. Dipesh has been a master behind creating the fabulous webpage for Trojan Robotics. Outside of robotics he loves spending time with his family.",
+       imgSrc: "/mentorImages/dipeshPanchal.JPG",
+       year: "2026"
+    },
+   
 
 
 ]
