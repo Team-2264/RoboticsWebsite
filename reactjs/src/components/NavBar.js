@@ -6,7 +6,7 @@ import {
   TrophyIcon,
   XMarkIcon,
   UserCircleIcon,
-  GlobeAltIcon,
+  
   UserGroupIcon,
   ChevronDownIcon,
   CameraIcon,
