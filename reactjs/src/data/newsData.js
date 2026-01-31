@@ -165,6 +165,11 @@ const newsData = [
         srcOfImage: "/assets/images/blogpost/trojanRoboticsIowa2023.jpg",
         author: "Lakshmi Kandikonda",
         year:"2023",
+    },
+    {
+
+
+        
     }
 ]
 export default newsData;

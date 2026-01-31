@@ -274,7 +274,7 @@ const studentData = [
     },
      {
         name: "Naman Brahmbhatt",
-        title: "Saftey Captain, Senior",
+        title: "Safety Captain, Senior",
         desc: "He enjoys practicing karate, finding it both challenging and fun. He also likes working on projects at home; currently, he is working on a 3D-printed helmet.",
         imgSrc: "/studentImages/Naman.jpeg",
         year: "2026"

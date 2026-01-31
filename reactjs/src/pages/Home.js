@@ -8,6 +8,7 @@ import Awards from "../components/awards";
 import UpcomingEvents from "../components/upcomingEvents";
 import Timeline from "../components/timeline";
 
+
 import "../App.css"
 
 
@@ -31,7 +32,8 @@ export default function Home (){
                 <div class="col-span-1"><Awards /></div>
             </div>
             <br></br>
-            <Timeline    />
+            <Timeline/>
+
 
             <Footer />
 
