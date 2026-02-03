@@ -37,13 +37,13 @@ export default function Events() {
         <br></br>
        <h1 className="font-bold text-2xl text-left pt:8">2026 Season Calender</h1>
       <iframe
-  src="https://calendar.google.com/calendar/embed?src=2c8cf6f817ac7ac139ce0482a8f6522abb0dae86dd7bd7273cc6645876464b3@group.calendar.google.com&ctz=America/Chicago"
-  style={{ border: 0 }}
-  width={800}
-  height={600}
-  frameBorder={0}
-  scrolling="no"
-  title="Calendar"
+          src="https://calendar.google.com/calendar/embed?src=2c8cf6f817ac7ac139ce0482a8f6522abb0dae86dd7bd7273cc66458764646b3%40group.calendar.google.com&ctz=America%2FChicago"
+          style={{ border: 0 }}
+          width={800}
+          height={600}
+ 
+          scrolling="no"
+          title="Calendar"
 />
 
 
