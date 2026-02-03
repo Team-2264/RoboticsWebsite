@@ -339,7 +339,7 @@ const mentors = [
     {
         name: "Mahima Nayak",
         title: "Outreach and Website Mentor",
-        desc: "Mahima is a software engineer at Medtonic. This is her second year helping Trojan Robotics, and she has been influential in maintaining the outreach team.",
+        desc: "Mahima is a software engineer at Medtonic. This is her third year helping Trojan Robotics, and she has been influential in maintaining the outreach team.",
         imgSrc: "/mentorImages/mahimaNayak.jpg",
         year: "2026"
     },

@@ -6,11 +6,12 @@ import {
   TrophyIcon,
   XMarkIcon,
   UserCircleIcon,
+  NewspaperIcon,
   
   UserGroupIcon,
-  ChevronDownIcon,
+  ChevronDownIcon,  
   CameraIcon,
-  NewspaperIcon
+
 } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 import ImageDataDict from "../data/ImageData"
@@ -28,7 +29,7 @@ const products = [
   { name: 'Coaches and Mentors', description: 'Meet our coaches and mentors.', route: "/mentors", icon: UserGroupIcon },
  
   { name: 'Newsletter', description: 'Read our monthly newsletter', route: "/newsletter", icon: NewspaperIcon },
-  { name: 'Team Blog', description: '', route: "/news", icon: NewspaperIcon },
+
 ]
 
 const navBarViewOptions = ["Sponsors", "Events", "Contact"]

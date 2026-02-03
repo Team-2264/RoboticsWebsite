@@ -1,5 +1,83 @@
 const newsData = [
     {
+  title: "Season Kickoff",
+  desc: "",
+  article: "Trojan Robotics kicked off the new season by bringing our competition and t-shirt shooting robots to a community showcase. This event helped build excitement for the upcoming challenge while introducing new members and younger students to FRC. The Season Kickoff set the tone for a motivated, collaborative, and high-energy year ahead.",
+  date: "January 16, 2026",
+  srcOfImage: "/assets/images/blogpost/Kickoff.jpg",
+  author: "",
+  year: "2026",
+},
+{
+
+
+  title: "STEMtacular Event",
+  desc: "",
+  article: "At the STEMtacular Event, Trojan Robotics showcased both our competition robot and our t-shirt shooting robot to spark excitement in the next generation of STEM enthusiasts. We loved interacting with students and families, answering questions, and demonstrating how fun and creative robotics can be. Events like this help us inspire future engineers and innovators.",
+  date: "November 8, 2025",
+  srcOfImage: "/assets/images/blogpost/STEMtacular25.jpg",
+  author: "",
+  year: "2025",
+},
+    
+    {
+
+  title: "Medtronic Jumpstart",
+  desc: "",
+  article: "Trojan Robotics attended the Medtronic Jumpstart event, where we had the opportunity to present our team and connect with many new and upcoming robotics teams. We shared our experiences in FRC, exchanged ideas, and learned from others in the community. This event was a great chance to inspire collaboration and strengthen connections across teams.",
+  date: "October 25, 2025",
+  srcOfImage: "/assets/images/blogpost/medtronic2025.jpg",
+  author: "",
+  year: "2025",
+  
+},
+
+    {
+  title: "Tackle Cancer Football Game",
+  desc: "",
+  article: "At the Tackle Cancer Football Game, Trojan Robotics was proud to support an important cause while engaging with our school community. Through our presence at the game, we helped raise awareness for cancer research and showed how robotics teams can contribute beyond competition. It was a meaningful night that combined outreach, advocacy, and Trojan pride.",
+  date: "October 10, 2025",
+  srcOfImage: "/assets/images/blogpost/cancerfb2025.png",
+  author: "",
+  year: "2025",
+},
+
+    {
+  title: "Homecoming Football Game",
+  desc: "",
+  article: "Trojan Robotics brought the energy to the Homecoming Football Game by showing off our crowd-favorite t-shirt shooting robot. Displaying Trojan pride under the Friday night lights, we engaged students, families, and fans while supporting Wayzata football. The excitement from the stands made this event an unforgettable showcase of school spirit and robotics in action!",
+  date: "October 3, 2025",
+  srcOfImage: "/assets/images/blogpost/hocofb2025(2).jpg",
+  author: "",
+  year: "2025",
+},
+
+{
+  title: "Tackle Cancer Football Game",
+  desc: "",
+  article: "At the Tackle Cancer Football Game, Trojan Robotics was proud to support an important cause while engaging with our school community. Through our presence at the game, we helped raise awareness for cancer research and showed how robotics teams can contribute beyond competition. It was a meaningful night that combined outreach, advocacy, and Trojan pride.",
+  date: "October 10, 2025",
+  srcOfImage: "/assets/images/blogpost/cancerfb2025.png",
+  author: "",
+  year: "2025",
+},
+
+
+
+
+    {
+        
+        title: "Homecoming Football Game",
+        desc: "",
+        article: "Today, Trojan Robotics had the pleasure of assisting Team Atlantic with their robotics and project presentation! They presented their project idea to us, and we provided feedback to help them improve their presentation. We were impressed with their work and enjoyed the opportunity to collaborate with them. We wish Team Atlantic the best of luck in their competition on January 12th!",
+        date: "December 18, 2024",
+        srcOfImage: "/assets/images/blogpost/Team_Atlantic_2024.jpg",
+        author: "",
+        year:"2024",
+
+    },
+    {
+        
         title: "Supporting Team Atlantic",
         desc: "",
         article: "Today, Trojan Robotics had the pleasure of assisting Team Atlantic with their robotics and project presentation! They presented their project idea to us, and we provided feedback to help them improve their presentation. We were impressed with their work and enjoyed the opportunity to collaborate with them. We wish Team Atlantic the best of luck in their competition on January 12th!",
