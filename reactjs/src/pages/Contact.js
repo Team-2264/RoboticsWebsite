@@ -1,6 +1,6 @@
-import Footer from "../components/footer";
+
 import NavBar from "../components/NavBar";
-import ReactDOM from 'react-dom/client';
+
 import { useFormik } from "formik";
 import * as Yup from 'yup'
 export default function Contact() {
@@ -14,7 +14,7 @@ export default function Contact() {
     })
 
     // Validate form
-    validationSchema: Yup.object({
+   Yup.object({
         name: Yup.string().required("Name is required"),
         email: Yup.string().email("Invalid Email").required("Email is required"),
         message: Yup.string().required("Message is required")
@@ -28,7 +28,7 @@ export default function Contact() {
                 <main className="h-screen flex justify-center">
                     <form className="bg-white flex-rounded-lg w-1/2" action="https://formsubmit.co/trojanrobotics2264@gmail.com" method="POST">
                         <h1 className="md:text-2xl sm:text-xl font-bold pb-2">Let's get in touch!</h1>
-                        <p className="text-gray-700">Have a quesion, comment or concern? Please feel free to get in contact with us today, and we will get back to you as soon as possible</p>
+                        <p className="text-gray-700">Have a question, comment or concern? Please feel free to get in contact with us today, and we will get back to you as soon as possible.</p>
 
                         <div className="mt-6">
                             {/* name Input field */}

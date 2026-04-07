@@ -28,3 +28,28 @@
     justify-content: center;
     background: url("./../public/roboimages/RobotBackground.png");
 }
+.carousel .control-arrow:hover, 
+.carousel.carousel-slider:hover
+ .control-arrow:hover {
+    
+    opacity: .3;
+    
+    background: rgb(8, 8, 58);
+   
+}
+.carousel .control-arrow, 
+.carousel.carousel-slider
+ .control-arrow {
+    transition: all .25sease-in;
+    opacity: .4;
+    filter: alpha(opacity = 40);
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    background: black;
+   
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+    padding: .5px;
+}

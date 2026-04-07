@@ -5,6 +5,7 @@ const awards = () => {
     <img
         src="/assets/images/UpdatedAwards.jpg"
         width='600'
+        alt ="Awards"
         
         />
 </div>

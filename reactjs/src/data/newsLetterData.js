@@ -41,5 +41,24 @@ const newsLetterData = [
         srcOfNewsLetter: "/assets/newsletter/JanuaryNewsletter2025.pdf",
         year:"2025"
     },
+    {
+        date: "February 07, 2025",
+        srcOfImage: "/assets/newsletter/FebruaryNewsletter2025.png",
+        srcOfNewsLetter: "/assets/newsletter/FebruaryNewsletter2025.pdf",
+        year:"2025"
+    },
+  
+     {
+        date: "November 08, 2025",
+        srcOfImage: "/assets/newsletter/November2025NEWSLETTER.jpg",
+        srcOfNewsLetter: "/assets/newsletter/November2025NEWSLETTER.pdf",
+        year:"2025"
+    },
+     {
+        date: "December 7, 2026",
+        srcOfImage: "/assets/newsletter/December2025Newsletter.jpg",
+        srcOfNewsLetter: "/assets/newsletter/December2025Newsletter.pdf",
+        year:"2025"
+    },
 ]
 export default newsLetterData;

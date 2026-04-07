@@ -1,4 +1,4 @@
-import { ArrowPathIcon, ChatBubbleOvalLeftEllipsisIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, UserGroupIcon, WrenchIcon } from '@heroicons/react/24/outline'
+
 import Footer from '../components/footer'
 import NavBar from '../components/NavBar'
 

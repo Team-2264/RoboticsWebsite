@@ -1,0 +1,55 @@
+@media (max-width: 900px) { 
+.slider-container {
+    width: 90%;
+    height: 80%;
+}
+}
+@media (min-width: 900px) { 
+    .slider-container {
+        width: 50%;
+        height: 50%;
+    }
+    }
+
+.slider-item-div {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-style {
+    height: 100% !important;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    background: url("./../public/roboimages/RobotBackground.png");
+}
+.carousel .control-arrow:hover, 
+.carousel.carousel-slider:hover
+ .control-arrow:hover {
+    
+    opacity: .3;
+    
+    background: rgb(8, 8, 58);
+   
+}
+.carousel .control-arrow, 
+.carousel.carousel-slider
+ .control-arrow {
+    transition: all .25sease-in;
+    opacity: .4;
+    filter: alpha(opacity = 40);
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    background: black;
+   
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+    padding: .5px;
+}
