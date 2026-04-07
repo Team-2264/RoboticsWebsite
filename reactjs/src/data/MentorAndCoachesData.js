@@ -344,14 +344,7 @@ const mentors = [
         year: "2026"
     },
   
-    {
-        name: "Dipesh Panchal",
-        title: "Programming Mentor",
-        desc: "Dipesh has been an instumental FLL, FRC, and FTC Coach for 7+ years. Dipesh has been a master behind creating the fabulous webpage for Trojan Robotics. Outside of robotics he loves spending time with his family.",
-       imgSrc: "/mentorImages/dipeshPanchal.JPG",
-       year: "2026"
-    },
-   
+ 
 
 
 ]

@@ -65,6 +65,12 @@ const timelineData = [
     date: "January 10, 2026",
     description: "We showcased our competition and t-shirt shooting robot to the next generation of STEM enthusiasts"
   },
+  {
+    year: "2026",
+    title: "North Star Regional",
+    date: "April 1-4 2026",
+    description: "Our robotics team competed at the North Star Regional hosted at the University of Minnesota, where we ranked 10th and had a great experience competing and watching other teams’ robots in action."
+  },
   
 ]
 export default timelineData;

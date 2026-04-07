@@ -1,5 +1,15 @@
 const newsData = [
     {
+  title: "North Star Regional",
+  desc: "",
+  article: "Trojan Robotics competed at the North Star Regional hosted at the University of Minnesota, where our team worked hard throughout qualification matches and ultimately ranked 10th overall. The event was an exciting opportunity to showcase our robot, collaborate with alliance partners, and learn from other talented teams. Beyond competition, we spent time scouting, watching innovative designs, and building connections within the FRC community. The North Star Regional was a memorable experience that strengthened our teamwork.",
+  date: "",
+  srcOfImage: "/assets/images/blogpost/NorthStarRegionals.JPG",
+  author: "",
+  year: "2026",
+},
+
+    {
   title: "Season Kickoff",
   desc: "",
   article: "Trojan Robotics kicked off the new season by bringing our competition and t-shirt shooting robots to a community showcase. This event helped build excitement for the upcoming challenge while introducing new members and younger students to FRC. The Season Kickoff set the tone for a motivated, collaborative, and high-energy year ahead.",

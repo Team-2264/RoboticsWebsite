@@ -4,7 +4,7 @@ const events = [
     month: "April",
     date: "1-4",
     location: "University of Minnesota",
-    year: "2026",
+    year: "2025",
   },
   {
     name: "10,000 Lakes Regional Competition",
