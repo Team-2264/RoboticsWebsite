@@ -343,6 +343,49 @@ const mentors = [
         imgSrc: "/mentorImages/mahimaNayak.jpg",
         year: "2026"
     },
+        // 2027 Mentors
+    {
+        name: "Riley Davis",
+        title: "Head Coach",
+        desc: "Mr. Davis is the new Head Coach of Trojan Robotics for the 2026-2027 season. He teaches AP Computer Science Principles, PC Hardware, and several other courses at Wayzata High School. He is excited to help students explore robotics, develop their technical skills, and learn through hands-on experiences.",
+        imgSrc: "/mentorImages/riley_davis.png",
+        year: "2027"
+    },
+    {
+        name: "Nira Rajan",
+        title: "Assistant Coach and Marketing Mentor",
+        desc: "Nira is currently the assistant coach and marketing mentor, She is very committed to the team and has been with the team for 8 years. Other then being in robotics she loves to garden, cook, bake, and spend time with her family!",
+        imgSrc: "/mentorImages/headCoach.jpg",
+        year: "2027"
+    },
+    {
+        name: "Nate Peterson",
+        title: "Programming Mentor",
+        desc: "Nate has been a driving force for the team's software and electrical success for many years. He has always been there to bridge the knowledge gap of outgoing and new members year after year.",
+        imgSrc: "/mentorImages/natePeterson.jpg",
+        year: "2027"
+    },
+    {
+        name: "Raj Rajan",
+        title: "Mechanical Mentor",
+        desc: "Raj has been with Trojan Robotics for 8 years now. He is a mechanical engineer and enjoys building the robot with students!",
+        imgSrc: "/mentorImages/arulRajan.jpg",
+        year: "2027"
+    },
+    {
+        name: "Brian Bierman",
+        title: "Mechanical Mentor",
+        desc: "Brian has been intrumental to our team for several years. In helping students create a functioning robot in a timely manner.",
+        imgSrc: "/mentorImages/brianBierman.jpg",
+        year: "2027"
+    },
+    {
+        name: "Rob Simon",
+        title: "Mechanical Mentor",
+        desc: "Rob is a legacy mentor and enjoys spending time with students and teaching them new things. Rob is also a engineer in the industry and help the students navigate through CAD.",
+        imgSrc: "/mentorImages/rob_simon.jpg",
+        year: "2027"
+    }
   
  
 
@@ -350,3 +393,5 @@ const mentors = [
 ]
 
 export default mentors;
+
+//csp independnet money amngament pc hardware and torubleshooting 

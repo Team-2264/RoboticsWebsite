@@ -402,12 +402,69 @@ const studentData = [
     {
         name: "Audrey Kinnear",
         title: "Mechanical, Junior",
-        desc: "",
+        desc: "Audrey is a member of the mechanical team at Trojan Robotics. She enjoys spending time with friends, playing board games, and listening to music. She is interested in robotics because she enjoys building and designing things.",
         imgSrc: "/studentImages/Audrey.png",
         year: "2026"
     },
+    {
+        name: "Audrey Kinnear",
+        title: "Head Captain",
+        desc: "Audrey is a member of the mechanical team at Trojan Robotics. She enjoys spending time with friends, playing board games, and listening to music. She is interested in robotics because she enjoys building and designing things.",
+        imgSrc: "/studentImages/Audrey.png",
+        year: "2027"
+    },
+    {
+        name: "Sreya Divakaruni",
+        title: "Head Captain",
+        desc: "Sreya had been part of FLL from grades 4-7, FTC in 8th grade, and now is a member of our FRC team. She enjoys spending time with family and friends, rollerblading, and playing tennis and pickleball.",
+        imgSrc: "/studentImages/Sreya.jpeg",
+        year: "2027"
+    },
+    {
+        name: "Jas Thephanonxay",
+        title: "Mechanical Captain",
+        desc: "Jas enjoys hanging out with friends, playing sports, cooking new recipes, and building computers. He is interested in robotics, especially the mechanical side because he has enjoyed building computers and robots since he was young.",
+        imgSrc: "/studentImages/Jas.jpeg",
+        year: "2027"
+    },
+    {
+        name: "David He",
+        title: "Mechanical Captain",
+        desc: "David has many passions he likes to play hockey and listen to music. And he is very interested in STEM related things like engineering or robotics.",
+        imgSrc: "/studentImages/David.jpeg",
+        year: "2027"
+    },
+    {
+        name: "Tahmid Reza",
+        title: "Safety Captain",
+        desc: "Tahmid has many different hobbies like playing piano and video games. He’s interested in robotics because he’s always liked building things.",
+        imgSrc: "/studentImages/Tahmid.jpeg",
+        year: "2027"
+    },
+    {
+        name: "Vishnu Chandrashekar",
+        title: "Safety Captain",
+        desc: "Vishnu is a member of the Marketing and Outreach team at Trojan Robotics. He enjoys spending time with friends and watching sports, particularly basketball and Formula 1. His passion for cars and motorsports inspired him to join robotics, as he wanted to learn and explore the field of engineering.",
+        imgSrc: "/studentImages/Vishnu.jpeg",
+        year: "2027"
+    },
+    {
+        name: "Kieran Finnegan",
+        title: "Programming Captain",
+        desc: "Outside of robotics, Kieran enjoys playing basketball and running. He is interested in robotics because he likes engineering.",
+        imgSrc: "/studentImages/Kieran.jpeg",
+        year: "2027"
+    },
+    {
+        name: "Nikhila Kodali",
+        title: "Marketing Captain",
+        desc: "Nikhila is passionate about spreading STEM to younger generations. She enjoys working with kids and hopes to pursue a career in biomedical engineering. In her free time, she likes to read and hang out with friends.",
+        imgSrc: "/studentImages/NikhilaKodali.png",
+        year: "2027"
+    }
+];
 
 
-]
+
 
 export default studentData;
