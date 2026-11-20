@@ -1,4 +1,5 @@
-const events = [
+const events = [\
+  ]=
   {
     name: "North Star Regional",
     month: "April",
